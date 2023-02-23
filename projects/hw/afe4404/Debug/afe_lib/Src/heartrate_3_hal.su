@@ -1,0 +1,4 @@
+../afe_lib/Src/heartrate_3_hal.c:136:6:hr3_hal_init	16	static
+../afe_lib/Src/heartrate_3_hal.c:229:6:hr3_hal_write	296	static
+../afe_lib/Src/heartrate_3_hal.c:301:6:hr3_hal_read	32	static
+../afe_lib/Src/heartrate_3_hal.c:399:6:hr3_hal_delay	16	static
