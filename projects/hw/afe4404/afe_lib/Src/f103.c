@@ -15,6 +15,7 @@
 /* Private variables ---------------------------------------------------------*/
 extern uint8_t transmit_cplt;
 extern I2C_HandleTypeDef cur_i2c;
+
 /* Private user code ---------------------------------------------------------*/
 void afe4404_RstSet(void)
 {
