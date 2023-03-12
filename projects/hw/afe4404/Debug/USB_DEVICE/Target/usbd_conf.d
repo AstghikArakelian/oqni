@@ -29,10 +29,10 @@ USB_DEVICE/Target/usbd_conf.o: ../USB_DEVICE/Target/usbd_conf.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../USB_DEVICE/Target/usbd_conf.h ../Core/Inc/main.h \
- ../Core/../afe_lib/Inc/heartrate1_3.h \
+ ../Core/../afe_lib/Inc/heartrate_3.h \
  ../Core/../afe_lib/Inc/heartrate_3_hw.h \
  ../Core/../afe_lib/Inc/heartrate_3_hal.h ../Core/../afe_lib/Inc/f103.h \
- ../Buffer/Inc/Buffer.h ../Core/../afe_lib/Inc/heartrate2_3.h \
+ ../Buffer/Inc/Buffer.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -71,12 +71,11 @@ USB_DEVICE/Target/usbd_conf.o: ../USB_DEVICE/Target/usbd_conf.c \
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../USB_DEVICE/Target/usbd_conf.h:
 ../Core/Inc/main.h:
-../Core/../afe_lib/Inc/heartrate1_3.h:
+../Core/../afe_lib/Inc/heartrate_3.h:
 ../Core/../afe_lib/Inc/heartrate_3_hw.h:
 ../Core/../afe_lib/Inc/heartrate_3_hal.h:
 ../Core/../afe_lib/Inc/f103.h:
 ../Buffer/Inc/Buffer.h:
-../Core/../afe_lib/Inc/heartrate2_3.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:

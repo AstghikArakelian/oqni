@@ -141,8 +141,7 @@ int main(void)
   adc1_rdy = 0;
   adc2_rdy = 0;
   afe4404_Delay_ms(200);
-  initStatHRM1();
-  initStatHRM2();
+  initStatHRM();
 
   /* USER CODE END 2 */
 

@@ -46,7 +46,7 @@ void afe4404_Delay_ms(uint32_t ms)
 void afe4404_send_results(uint8_t num, uint16_t hr, uint32_t led1, uint32_t led2, uint32_t led3)
 {
 	char send_buf[128];
-	sprintf(send_buf, "%d, %ld, %ld, %ld, %ld\r\n", num, hr, led1, led2, led3);
+	sprintf(send_buf, "%d, %d, %ld, %ld, %ld\r\n", num, hr, led1, led2, led3);
 	CDC_Transmit_FS((unsigned char*) send_buf, strlen(send_buf));
 }
 

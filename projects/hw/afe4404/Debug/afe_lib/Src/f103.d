@@ -30,10 +30,10 @@ afe_lib/Src/f103.o: ../afe_lib/Src/f103.c ../Core/../afe_lib/Inc/f103.h \
  ../Buffer/Inc/Buffer.h ../USB_DEVICE/App/usb_device.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../USB_DEVICE/Target/usbd_conf.h ../Core/Inc/main.h \
- ../Core/../afe_lib/Inc/heartrate1_3.h \
+ ../Core/../afe_lib/Inc/heartrate_3.h \
  ../Core/../afe_lib/Inc/heartrate_3_hw.h \
  ../Core/../afe_lib/Inc/heartrate_3_hal.h ../Core/../afe_lib/Inc/f103.h \
- ../Core/../afe_lib/Inc/heartrate2_3.h ../USB_DEVICE/App/usbd_cdc_if.h \
+ ../USB_DEVICE/App/usbd_cdc_if.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
@@ -74,11 +74,10 @@ afe_lib/Src/f103.o: ../afe_lib/Src/f103.c ../Core/../afe_lib/Inc/f103.h \
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../USB_DEVICE/Target/usbd_conf.h:
 ../Core/Inc/main.h:
-../Core/../afe_lib/Inc/heartrate1_3.h:
+../Core/../afe_lib/Inc/heartrate_3.h:
 ../Core/../afe_lib/Inc/heartrate_3_hw.h:
 ../Core/../afe_lib/Inc/heartrate_3_hal.h:
 ../Core/../afe_lib/Inc/f103.h:
-../Core/../afe_lib/Inc/heartrate2_3.h:
 ../USB_DEVICE/App/usbd_cdc_if.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:

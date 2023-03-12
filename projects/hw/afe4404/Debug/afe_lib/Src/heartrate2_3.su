@@ -1,9 +1,0 @@
-../afe_lib/Src/heartrate2_3.c:60:14:hr3_get_values2	24	static
-../afe_lib/Src/heartrate2_3.c:71:9:hr3_get_heartrate2	16	static
-../afe_lib/Src/heartrate2_3.c:84:6:initStatHRM2	16	static
-../afe_lib/Src/heartrate2_3.c:112:6:statHRMAlgo2	24	static
-../afe_lib/Src/heartrate2_3.c:205:6:updateWindow2	32	static
-../afe_lib/Src/heartrate2_3.c:218:15:chooseRate2	32	static
-../afe_lib/Src/heartrate2_3.c:256:6:updateHeartRate2	32	static
-../afe_lib/Src/heartrate2_3.c:271:15:findMax2	24	static
-../afe_lib/Src/heartrate2_3.c:284:15:findMin2	24	static

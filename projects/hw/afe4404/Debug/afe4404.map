@@ -4315,347 +4315,161 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c8 ./afe_lib/Src/f103.o
  .debug_macro   0x0000000000000000       0x8f ./afe_lib/Src/f103.o
  .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/f103.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate1_3.o
- .text          0x0000000000000000        0x0 ./afe_lib/Src/heartrate1_3.o
- .data          0x0000000000000000        0x0 ./afe_lib/Src/heartrate1_3.o
- .bss           0x0000000000000000        0x0 ./afe_lib/Src/heartrate1_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3.o
+ .text          0x0000000000000000        0x0 ./afe_lib/Src/heartrate_3.o
+ .data          0x0000000000000000        0x0 ./afe_lib/Src/heartrate_3.o
+ .bss           0x0000000000000000        0x0 ./afe_lib/Src/heartrate_3.o
  .bss.currentRatio
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate1_3.o
- .text.hr3_get_values1
-                0x0000000000000000       0x28 ./afe_lib/Src/heartrate1_3.o
- .text.initStatHRM1
-                0x0000000000000000       0xe8 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0xa72 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x8e ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x51 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x103 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x6a ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x1df ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x221 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x2e ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0xbd ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0xd23 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000     0xe09e ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x6d ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000     0x3468 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x174 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x5c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x5be ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x289 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x1cb ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x114 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x1b2 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x27 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x136 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x1bc ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x57 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x88 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x241 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x287 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x141 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x8d1 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x65 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x249 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x83 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x18 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x35 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x43 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x58 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x71 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x12a ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x341 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x29 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0xd5 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x3d ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x145 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x20 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0xb8 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x0000000000000000      0x23c ./afe_lib/Src/heartrate1_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .text          0x0000000000000000        0x0 ./afe_lib/Src/heartrate2_3.o
- .data          0x0000000000000000        0x0 ./afe_lib/Src/heartrate2_3.o
- .bss           0x0000000000000000        0x0 ./afe_lib/Src/heartrate2_3.o
- .bss.peakWindowHP
-                0x0000000000000000       0x54 ./afe_lib/Src/heartrate2_3.o
- .bss.lastOnsetValueLED1
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.lastPeakValueLED1
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.HR        0x0000000000000000        0xc ./afe_lib/Src/heartrate2_3.o
- .bss.HeartRate
-                0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.temp      0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.lastPeak  0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.lastOnset
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.movingWindowHP
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.ispeak    0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.movingWindowCount
-                0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.movingWindowSize
-                0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.smallest  0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.foundPeak
-                0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.totalFoundPeak
-                0x0000000000000000        0x1 ./afe_lib/Src/heartrate2_3.o
- .bss.frequency
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .bss.currentRatio
-                0x0000000000000000        0x4 ./afe_lib/Src/heartrate2_3.o
- .text.hr3_get_values2
-                0x0000000000000000       0x28 ./afe_lib/Src/heartrate2_3.o
- .text.initStatHRM2
-                0x0000000000000000       0xe8 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0xa72 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x8e ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x51 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x103 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x6a ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x1df ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x221 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x2e ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0xbd ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0xd23 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000     0xe09e ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x6d ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000     0x3468 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x174 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x5c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x5be ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x289 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x1cb ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x114 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x1b2 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x27 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x136 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x1bc ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x57 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x88 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x241 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x287 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x141 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x8d1 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x65 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x249 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x83 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x18 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x35 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x43 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x58 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x71 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x12a ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x341 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x29 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0xd5 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x3d ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x145 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x20 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0xb8 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x0000000000000000      0x23c ./afe_lib/Src/heartrate2_3.o
+                0x0000000000000000        0x4 ./afe_lib/Src/heartrate_3.o
+ .text.hr3_get_values
+                0x0000000000000000       0x28 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0xa72 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x8e ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x51 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x103 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x6a ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x1df ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x221 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x2e ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0xbd ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0xd23 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000     0xe09e ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x6d ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000     0x3468 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x174 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x5c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x5be ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x289 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x1cb ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x114 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x1b2 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x27 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x136 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x1bc ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x57 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x88 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x241 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x287 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x141 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x8d1 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x65 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x249 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x83 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x18 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x3c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x35 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x43 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x34 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x58 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x71 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x12a ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x341 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x29 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x22 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x52 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0xd5 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x1c ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x3d ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x145 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x16 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x20 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0xb8 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000       0x10 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x0000000000000000      0x23c ./afe_lib/Src/heartrate_3.o
  .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3_hal.o
  .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3_hal.o
  .group         0x0000000000000000        0xc ./afe_lib/Src/heartrate_3_hal.o
@@ -5154,8 +4968,7 @@ LOAD ./USB_DEVICE/App/usbd_cdc_if.o
 LOAD ./USB_DEVICE/App/usbd_desc.o
 LOAD ./USB_DEVICE/Target/usbd_conf.o
 LOAD ./afe_lib/Src/f103.o
-LOAD ./afe_lib/Src/heartrate1_3.o
-LOAD ./afe_lib/Src/heartrate2_3.o
+LOAD ./afe_lib/Src/heartrate_3.o
 LOAD ./afe_lib/Src/heartrate_3_hal.o
 LOAD ./afe_lib/Src/heartrate_3_hw.o
 START GROUP
@@ -5189,7 +5002,7 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0xd408
+.text           0x000000000800010c     0xd014
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x40 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -5902,311 +5715,289 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .text.afe4404_send_results
                 0x000000000800b0f4       0x58 ./afe_lib/Src/f103.o
                 0x000000000800b0f4                afe4404_send_results
- .text.hr3_get_heartrate1
-                0x000000000800b14c       0x50 ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b14c                hr3_get_heartrate1
- .text.statHRMAlgo1
-                0x000000000800b19c      0x228 ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b19c                statHRMAlgo1
- .text.updateWindow1
-                0x000000000800b3c4       0x4e ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b3c4                updateWindow1
- *fill*         0x000000000800b412        0x2 
- .text.chooseRate1
-                0x000000000800b414      0x10c ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b414                chooseRate1
- .text.updateHeartRate1
-                0x000000000800b520       0x76 ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b520                updateHeartRate1
- .text.findMax1
-                0x000000000800b596       0x48 ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b596                findMax1
- .text.findMin1
-                0x000000000800b5de       0x48 ./afe_lib/Src/heartrate1_3.o
-                0x000000000800b5de                findMin1
- *fill*         0x000000000800b626        0x2 
- .text.hr3_get_heartrate2
-                0x000000000800b628       0x50 ./afe_lib/Src/heartrate2_3.o
-                0x000000000800b628                hr3_get_heartrate2
- .text.statHRMAlgo2
-                0x000000000800b678      0x228 ./afe_lib/Src/heartrate2_3.o
-                0x000000000800b678                statHRMAlgo2
- .text.updateWindow2
-                0x000000000800b8a0       0x4e ./afe_lib/Src/heartrate2_3.o
-                0x000000000800b8a0                updateWindow2
- *fill*         0x000000000800b8ee        0x2 
- .text.chooseRate2
-                0x000000000800b8f0      0x10c ./afe_lib/Src/heartrate2_3.o
-                0x000000000800b8f0                chooseRate2
- .text.updateHeartRate2
-                0x000000000800b9fc       0x76 ./afe_lib/Src/heartrate2_3.o
-                0x000000000800b9fc                updateHeartRate2
- .text.findMax2
-                0x000000000800ba72       0x48 ./afe_lib/Src/heartrate2_3.o
-                0x000000000800ba72                findMax2
- .text.findMin2
-                0x000000000800baba       0x48 ./afe_lib/Src/heartrate2_3.o
-                0x000000000800baba                findMin2
- *fill*         0x000000000800bb02        0x2 
+ .text.hr3_get_heartrate
+                0x000000000800b14c       0x50 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b14c                hr3_get_heartrate
+ .text.initStatHRM
+                0x000000000800b19c       0xe8 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b19c                initStatHRM
+ .text.statHRMAlgo
+                0x000000000800b284      0x228 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b284                statHRMAlgo
+ .text.updateWindow
+                0x000000000800b4ac       0x4e ./afe_lib/Src/heartrate_3.o
+                0x000000000800b4ac                updateWindow
+ *fill*         0x000000000800b4fa        0x2 
+ .text.chooseRate
+                0x000000000800b4fc      0x10c ./afe_lib/Src/heartrate_3.o
+                0x000000000800b4fc                chooseRate
+ .text.updateHeartRate
+                0x000000000800b608       0x76 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b608                updateHeartRate
+ .text.findMax  0x000000000800b67e       0x48 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b67e                findMax
+ .text.findMin  0x000000000800b6c6       0x48 ./afe_lib/Src/heartrate_3.o
+                0x000000000800b6c6                findMin
+ *fill*         0x000000000800b70e        0x2 
  .text.hr3_hal_init
-                0x000000000800bb04       0x24 ./afe_lib/Src/heartrate_3_hal.o
-                0x000000000800bb04                hr3_hal_init
+                0x000000000800b710       0x24 ./afe_lib/Src/heartrate_3_hal.o
+                0x000000000800b710                hr3_hal_init
  .text.hr3_hal_write
-                0x000000000800bb28       0xda ./afe_lib/Src/heartrate_3_hal.o
-                0x000000000800bb28                hr3_hal_write
+                0x000000000800b734       0xda ./afe_lib/Src/heartrate_3_hal.o
+                0x000000000800b734                hr3_hal_write
  .text.hr3_hal_read
-                0x000000000800bc02       0x28 ./afe_lib/Src/heartrate_3_hal.o
-                0x000000000800bc02                hr3_hal_read
+                0x000000000800b80e       0x28 ./afe_lib/Src/heartrate_3_hal.o
+                0x000000000800b80e                hr3_hal_read
  .text.hr3_init
-                0x000000000800bc2a      0x128 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bc2a                hr3_init
- *fill*         0x000000000800bd52        0x2 
+                0x000000000800b836      0x128 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800b836                hr3_init
+ *fill*         0x000000000800b95e        0x2 
  .text.hr3_set_settings
-                0x000000000800bd54       0x8c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bd54                hr3_set_settings
+                0x000000000800b960       0x8c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800b960                hr3_set_settings
  .text.hr3_set_led2_sample_start_end
-                0x000000000800bde0       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bde0                hr3_set_led2_sample_start_end
+                0x000000000800b9ec       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800b9ec                hr3_set_led2_sample_start_end
  .text.hr3_set_led1_start_end
-                0x000000000800be5c       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800be5c                hr3_set_led1_start_end
+                0x000000000800ba68       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800ba68                hr3_set_led1_start_end
  .text.hr3_set_led3_sample_start_end
-                0x000000000800bed8       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bed8                hr3_set_led3_sample_start_end
+                0x000000000800bae4       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bae4                hr3_set_led3_sample_start_end
  .text.hr3_set_led1_sample_start_end
-                0x000000000800bf54       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bf54                hr3_set_led1_sample_start_end
+                0x000000000800bb60       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bb60                hr3_set_led1_sample_start_end
  .text.hr3_set_led2_start_end
-                0x000000000800bfd0       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800bfd0                hr3_set_led2_start_end
+                0x000000000800bbdc       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bbdc                hr3_set_led2_start_end
  .text.hr3_set_amb1_sample_start_end
-                0x000000000800c04c       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c04c                hr3_set_amb1_sample_start_end
+                0x000000000800bc58       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bc58                hr3_set_amb1_sample_start_end
  .text.hr3_set_led2_convert_start_end
-                0x000000000800c0c8       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c0c8                hr3_set_led2_convert_start_end
+                0x000000000800bcd4       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bcd4                hr3_set_led2_convert_start_end
  .text.hr3_set_led3_convert_start_end
-                0x000000000800c144       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c144                hr3_set_led3_convert_start_end
+                0x000000000800bd50       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bd50                hr3_set_led3_convert_start_end
  .text.hr3_set_led1_convert_start_end
-                0x000000000800c1c0       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c1c0                hr3_set_led1_convert_start_end
+                0x000000000800bdcc       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bdcc                hr3_set_led1_convert_start_end
  .text.hr3_set_amb1_convert_start_end
-                0x000000000800c23c       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c23c                hr3_set_amb1_convert_start_end
+                0x000000000800be48       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800be48                hr3_set_amb1_convert_start_end
  .text.hr3_set_adc_reset0_start_end
-                0x000000000800c2b8       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c2b8                hr3_set_adc_reset0_start_end
+                0x000000000800bec4       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bec4                hr3_set_adc_reset0_start_end
  .text.hr3_set_adc_reset1_start_end
-                0x000000000800c334       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c334                hr3_set_adc_reset1_start_end
+                0x000000000800bf40       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bf40                hr3_set_adc_reset1_start_end
  .text.hr3_set_adc_reset2_start_end
-                0x000000000800c3b0       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c3b0                hr3_set_adc_reset2_start_end
+                0x000000000800bfbc       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800bfbc                hr3_set_adc_reset2_start_end
  .text.hr3_set_adc_reset3_start_end
-                0x000000000800c42c       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c42c                hr3_set_adc_reset3_start_end
+                0x000000000800c038       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c038                hr3_set_adc_reset3_start_end
  .text.hr3_set_prpct_count
-                0x000000000800c4a8       0x48 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c4a8                hr3_set_prpct_count
+                0x000000000800c0b4       0x48 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c0b4                hr3_set_prpct_count
  .text.hr3_set_timer_and_average_num
-                0x000000000800c4f0       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c4f0                hr3_set_timer_and_average_num
+                0x000000000800c0fc       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c0fc                hr3_set_timer_and_average_num
  .text.hr3_set_seperate_tia_gain
-                0x000000000800c56c       0xa4 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c56c                hr3_set_seperate_tia_gain
+                0x000000000800c178       0xa4 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c178                hr3_set_seperate_tia_gain
  .text.hr3_set_tia_gain
-                0x000000000800c610       0xa8 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c610                hr3_set_tia_gain
+                0x000000000800c21c       0xa8 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c21c                hr3_set_tia_gain
  .text.hr3_set_led_currents
-                0x000000000800c6b8       0xa0 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c6b8                hr3_set_led_currents
+                0x000000000800c2c4       0xa0 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c2c4                hr3_set_led_currents
  .text.hr3_set_dynamic_settings
-                0x000000000800c758       0xd0 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c758                hr3_set_dynamic_settings
+                0x000000000800c364       0xd0 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c364                hr3_set_dynamic_settings
  .text.hr3_set_clkout_div
-                0x000000000800c828       0x74 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c828                hr3_set_clkout_div
+                0x000000000800c434       0x74 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c434                hr3_set_clkout_div
  .text.hr3_get_led1_val
-                0x000000000800c89c       0x50 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c89c                hr3_get_led1_val
+                0x000000000800c4a8       0x50 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c4a8                hr3_get_led1_val
  .text.hr3_get_led2_val
-                0x000000000800c8ec       0x50 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c8ec                hr3_get_led2_val
+                0x000000000800c4f8       0x50 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c4f8                hr3_get_led2_val
  .text.hr3_get_led3_val
-                0x000000000800c93c       0x50 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c93c                hr3_get_led3_val
+                0x000000000800c548       0x50 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c548                hr3_get_led3_val
  .text.hr3_get_led1_amb1_val
-                0x000000000800c98c       0x5c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c98c                hr3_get_led1_amb1_val
+                0x000000000800c598       0x5c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c598                hr3_get_led1_amb1_val
  .text.hr3_set_pdn_cycle_start_end
-                0x000000000800c9e8       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800c9e8                hr3_set_pdn_cycle_start_end
+                0x000000000800c5f4       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c5f4                hr3_set_pdn_cycle_start_end
  .text.hr3_set_led3_start_stop
-                0x000000000800ca64       0x7c ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800ca64                hr3_set_led3_start_stop
+                0x000000000800c670       0x7c ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c670                hr3_set_led3_start_stop
  .text.hr3_set_int_clk_div
-                0x000000000800cae0       0x44 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800cae0                hr3_set_int_clk_div
+                0x000000000800c6ec       0x44 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c6ec                hr3_set_int_clk_div
  .text.hr3_read_enable
-                0x000000000800cb24       0x38 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800cb24                hr3_read_enable
+                0x000000000800c730       0x38 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c730                hr3_read_enable
  .text.hr3_read_disable
-                0x000000000800cb5c       0x38 ./afe_lib/Src/heartrate_3_hw.o
-                0x000000000800cb5c                hr3_read_disable
- .text.__errno  0x000000000800cb94        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
-                0x000000000800cb94                __errno
+                0x000000000800c768       0x38 ./afe_lib/Src/heartrate_3_hw.o
+                0x000000000800c768                hr3_read_disable
+ .text.__errno  0x000000000800c7a0        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
+                0x000000000800c7a0                __errno
  .text.__libc_init_array
-                0x000000000800cba0       0x48 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
-                0x000000000800cba0                __libc_init_array
- .text.malloc   0x000000000800cbe8       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
-                0x000000000800cbe8                malloc
- .text.memcpy   0x000000000800cbf8       0x1c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000800cbf8                memcpy
- .text.memset   0x000000000800cc14       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
-                0x000000000800cc14                memset
- .text._free_r  0x000000000800cc24       0x90 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
-                0x000000000800cc24                _free_r
+                0x000000000800c7ac       0x48 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+                0x000000000800c7ac                __libc_init_array
+ .text.malloc   0x000000000800c7f4       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
+                0x000000000800c7f4                malloc
+ .text.memcpy   0x000000000800c804       0x1c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000800c804                memcpy
+ .text.memset   0x000000000800c820       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+                0x000000000800c820                memset
+ .text._free_r  0x000000000800c830       0x90 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                0x000000000800c830                _free_r
  .text.sbrk_aligned
-                0x000000000800ccb4       0x40 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000800c8c0       0x40 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x000000000800ccf4       0xe8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
-                0x000000000800ccf4                _malloc_r
- .text._sbrk_r  0x000000000800cddc       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
-                0x000000000800cddc                _sbrk_r
- .text.sprintf  0x000000000800cdfc       0x40 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
-                0x000000000800cdfc                siprintf
-                0x000000000800cdfc                sprintf
+                0x000000000800c900       0xe8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000800c900                _malloc_r
+ .text._sbrk_r  0x000000000800c9e8       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+                0x000000000800c9e8                _sbrk_r
+ .text.sprintf  0x000000000800ca08       0x40 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+                0x000000000800ca08                siprintf
+                0x000000000800ca08                sprintf
  .text.__malloc_lock
-                0x000000000800ce3c        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
-                0x000000000800ce3c                __malloc_lock
+                0x000000000800ca48        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x000000000800ca48                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800ce48        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
-                0x000000000800ce48                __malloc_unlock
+                0x000000000800ca54        0xc c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x000000000800ca54                __malloc_unlock
  .text.__ssputs_r
-                0x000000000800ce54       0xb6 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000800ce54                __ssputs_r
- *fill*         0x000000000800cf0a        0x2 
+                0x000000000800ca60       0xb6 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800ca60                __ssputs_r
+ *fill*         0x000000000800cb16        0x2 
  .text._svfprintf_r
-                0x000000000800cf0c      0x200 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000800cf0c                _svfiprintf_r
-                0x000000000800cf0c                _svfprintf_r
+                0x000000000800cb18      0x200 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800cb18                _svfiprintf_r
+                0x000000000800cb18                _svfprintf_r
  .text._printf_common
-                0x000000000800d10c       0xde c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800d10c                _printf_common
- *fill*         0x000000000800d1ea        0x2 
+                0x000000000800cd18       0xde c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800cd18                _printf_common
+ *fill*         0x000000000800cdf6        0x2 
  .text._printf_i
-                0x000000000800d1ec      0x24c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800d1ec                _printf_i
+                0x000000000800cdf8      0x24c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800cdf8                _printf_i
  .text.__retarget_lock_acquire_recursive
-                0x000000000800d438        0x2 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                0x000000000800d438                __retarget_lock_acquire_recursive
+                0x000000000800d044        0x2 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x000000000800d044                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800d43a        0x2 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                0x000000000800d43a                __retarget_lock_release_recursive
- .text.memchr   0x000000000800d43c       0x1c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
-                0x000000000800d43c                memchr
- .text.memmove  0x000000000800d458       0x34 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
-                0x000000000800d458                memmove
+                0x000000000800d046        0x2 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x000000000800d046                __retarget_lock_release_recursive
+ .text.memchr   0x000000000800d048       0x1c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                0x000000000800d048                memchr
+ .text.memmove  0x000000000800d064       0x34 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                0x000000000800d064                memmove
  .text._realloc_r
-                0x000000000800d48c       0x5e c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
-                0x000000000800d48c                _realloc_r
+                0x000000000800d098       0x5e c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000800d098                _realloc_r
  .text._malloc_usable_size_r
-                0x000000000800d4ea       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
-                0x000000000800d4ea                _malloc_usable_size_r
+                0x000000000800d0f6       0x10 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000800d0f6                _malloc_usable_size_r
  *(.glue_7)
- .glue_7        0x000000000800d4fa        0x0 linker stubs
+ .glue_7        0x000000000800d106        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800d4fa        0x0 linker stubs
+ .glue_7t       0x000000000800d106        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x000000000800d4fa        0x2 
- .eh_frame      0x000000000800d4fc        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x000000000800d106        0x2 
+ .eh_frame      0x000000000800d108        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x000000000800d4fc        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x000000000800d4fc                _init
- .init          0x000000000800d500        0x8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x000000000800d108        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800d108                _init
+ .init          0x000000000800d10c        0x8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x000000000800d508        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x000000000800d508                _fini
- .fini          0x000000000800d50c        0x8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x000000000800d514                . = ALIGN (0x4)
-                0x000000000800d514                _etext = .
+ .fini          0x000000000800d114        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800d114                _fini
+ .fini          0x000000000800d118        0x8 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x000000000800d120                . = ALIGN (0x4)
+                0x000000000800d120                _etext = .
 
-.vfp11_veneer   0x000000000800d514        0x0
- .vfp11_veneer  0x000000000800d514        0x0 linker stubs
+.vfp11_veneer   0x000000000800d120        0x0
+ .vfp11_veneer  0x000000000800d120        0x0 linker stubs
 
-.v4_bx          0x000000000800d514        0x0
- .v4_bx         0x000000000800d514        0x0 linker stubs
+.v4_bx          0x000000000800d120        0x0
+ .v4_bx         0x000000000800d120        0x0 linker stubs
 
-.iplt           0x000000000800d514        0x0
- .iplt          0x000000000800d514        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x000000000800d120        0x0
+ .iplt          0x000000000800d120        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x000000000800d514       0xe4
-                0x000000000800d514                . = ALIGN (0x4)
+.rodata         0x000000000800d120       0xcc
+                0x000000000800d120                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x000000000800d514       0x10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .rodata        0x000000000800d524       0x46 ./USB_DEVICE/App/usbd_desc.o
- *fill*         0x000000000800d56a        0x2 
- .rodata        0x000000000800d56c       0x3b ./afe_lib/Src/f103.o
- *fill*         0x000000000800d5a7        0x1 
- .rodata        0x000000000800d5a8        0x3 ./afe_lib/Src/heartrate_3_hw.o
+ .rodata        0x000000000800d120       0x10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .rodata        0x000000000800d130       0x46 ./USB_DEVICE/App/usbd_desc.o
+ *fill*         0x000000000800d176        0x2 
+ .rodata        0x000000000800d178       0x23 ./afe_lib/Src/f103.o
+ *fill*         0x000000000800d19b        0x1 
+ .rodata        0x000000000800d19c        0x3 ./afe_lib/Src/heartrate_3_hw.o
  *(.rodata*)
- *fill*         0x000000000800d5ab        0x1 
+ *fill*         0x000000000800d19f        0x1 
  .rodata.AHBPrescTable
-                0x000000000800d5ac       0x10 ./Core/Src/system_stm32f1xx.o
-                0x000000000800d5ac                AHBPrescTable
+                0x000000000800d1a0       0x10 ./Core/Src/system_stm32f1xx.o
+                0x000000000800d1a0                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800d5bc        0x8 ./Core/Src/system_stm32f1xx.o
-                0x000000000800d5bc                APBPrescTable
+                0x000000000800d1b0        0x8 ./Core/Src/system_stm32f1xx.o
+                0x000000000800d1b0                APBPrescTable
  .rodata._svfprintf_r.str1.1
-                0x000000000800d5c4       0x11 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800d1b8       0x11 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000000800d5d5       0x22 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800d5f8                . = ALIGN (0x4)
- *fill*         0x000000000800d5f7        0x1 
+                0x000000000800d1c9       0x22 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800d1ec                . = ALIGN (0x4)
+ *fill*         0x000000000800d1eb        0x1 
 
-.rel.dyn        0x000000000800d5f8        0x0
- .rel.iplt      0x000000000800d5f8        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x000000000800d1ec        0x0
+ .rel.iplt      0x000000000800d1ec        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x000000000800d5f8        0x0
-                0x000000000800d5f8                . = ALIGN (0x4)
+.ARM.extab      0x000000000800d1ec        0x0
+                0x000000000800d1ec                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800d5f8                . = ALIGN (0x4)
+                0x000000000800d1ec                . = ALIGN (0x4)
 
-.ARM            0x000000000800d5f8        0x0
-                0x000000000800d5f8                . = ALIGN (0x4)
-                0x000000000800d5f8                __exidx_start = .
+.ARM            0x000000000800d1ec        0x0
+                0x000000000800d1ec                . = ALIGN (0x4)
+                0x000000000800d1ec                __exidx_start = .
  *(.ARM.exidx*)
-                0x000000000800d5f8                __exidx_end = .
-                0x000000000800d5f8                . = ALIGN (0x4)
+                0x000000000800d1ec                __exidx_end = .
+                0x000000000800d1ec                . = ALIGN (0x4)
 
-.preinit_array  0x000000000800d5f8        0x0
-                0x000000000800d5f8                . = ALIGN (0x4)
-                0x000000000800d5f8                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800d1ec        0x0
+                0x000000000800d1ec                . = ALIGN (0x4)
+                0x000000000800d1ec                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800d5f8                PROVIDE (__preinit_array_end = .)
-                0x000000000800d5f8                . = ALIGN (0x4)
+                0x000000000800d1ec                PROVIDE (__preinit_array_end = .)
+                0x000000000800d1ec                . = ALIGN (0x4)
 
-.init_array     0x000000000800d5f8        0x4
-                0x000000000800d5f8                . = ALIGN (0x4)
-                0x000000000800d5f8                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800d1ec        0x4
+                0x000000000800d1ec                . = ALIGN (0x4)
+                0x000000000800d1ec                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800d5f8        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x000000000800d5fc                PROVIDE (__init_array_end = .)
-                0x000000000800d5fc                . = ALIGN (0x4)
+ .init_array    0x000000000800d1ec        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x000000000800d1f0                PROVIDE (__init_array_end = .)
+                0x000000000800d1f0                . = ALIGN (0x4)
 
-.fini_array     0x000000000800d5fc        0x4
-                0x000000000800d5fc                . = ALIGN (0x4)
+.fini_array     0x000000000800d1f0        0x4
+                0x000000000800d1f0                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800d5fc        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x000000000800d1f0        0x4 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800d600                . = ALIGN (0x4)
-                0x000000000800d600                _sidata = LOADADDR (.data)
+                0x000000000800d1f4                . = ALIGN (0x4)
+                0x000000000800d1f4                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x1e0 load address 0x000000000800d600
+.data           0x0000000020000000      0x1e0 load address 0x000000000800d1f4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -6265,11 +6056,11 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x00000000200001e0                . = ALIGN (0x4)
                 0x00000000200001e0                _edata = .
 
-.igot.plt       0x00000000200001e0        0x0 load address 0x000000000800d7e0
+.igot.plt       0x00000000200001e0        0x0 load address 0x000000000800d3d4
  .igot.plt      0x00000000200001e0        0x0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x00000000200001e0                . = ALIGN (0x4)
 
-.bss            0x00000000200001e0     0x13dc load address 0x000000000800d7e0
+.bss            0x00000000200001e0     0x13dc load address 0x000000000800d3d4
                 0x00000000200001e0                _sbss = .
                 0x00000000200001e0                __bss_start__ = _sbss
  *(.bss)
@@ -6313,49 +6104,49 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000020001018                hpcd_USB_FS
  .bss.mem.0     0x0000000020001304      0x220 ./USB_DEVICE/Target/usbd_conf.o
  .bss.peakWindowHP
-                0x0000000020001524       0x54 ./afe_lib/Src/heartrate1_3.o
+                0x0000000020001524       0x54 ./afe_lib/Src/heartrate_3.o
                 0x0000000020001524                peakWindowHP
  .bss.lastOnsetValueLED1
-                0x0000000020001578        0x4 ./afe_lib/Src/heartrate1_3.o
+                0x0000000020001578        0x4 ./afe_lib/Src/heartrate_3.o
                 0x0000000020001578                lastOnsetValueLED1
  .bss.lastPeakValueLED1
-                0x000000002000157c        0x4 ./afe_lib/Src/heartrate1_3.o
+                0x000000002000157c        0x4 ./afe_lib/Src/heartrate_3.o
                 0x000000002000157c                lastPeakValueLED1
- .bss.HR        0x0000000020001580        0xc ./afe_lib/Src/heartrate1_3.o
+ .bss.HR        0x0000000020001580        0xc ./afe_lib/Src/heartrate_3.o
                 0x0000000020001580                HR
  .bss.HeartRate
-                0x000000002000158c        0x1 ./afe_lib/Src/heartrate1_3.o
+                0x000000002000158c        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000158c                HeartRate
- .bss.temp      0x000000002000158d        0x1 ./afe_lib/Src/heartrate1_3.o
+ .bss.temp      0x000000002000158d        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000158d                temp
  *fill*         0x000000002000158e        0x2 
- .bss.lastPeak  0x0000000020001590        0x4 ./afe_lib/Src/heartrate1_3.o
+ .bss.lastPeak  0x0000000020001590        0x4 ./afe_lib/Src/heartrate_3.o
                 0x0000000020001590                lastPeak
  .bss.lastOnset
-                0x0000000020001594        0x4 ./afe_lib/Src/heartrate1_3.o
+                0x0000000020001594        0x4 ./afe_lib/Src/heartrate_3.o
                 0x0000000020001594                lastOnset
  .bss.movingWindowHP
-                0x0000000020001598        0x4 ./afe_lib/Src/heartrate1_3.o
+                0x0000000020001598        0x4 ./afe_lib/Src/heartrate_3.o
                 0x0000000020001598                movingWindowHP
- .bss.ispeak    0x000000002000159c        0x1 ./afe_lib/Src/heartrate1_3.o
+ .bss.ispeak    0x000000002000159c        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000159c                ispeak
  .bss.movingWindowCount
-                0x000000002000159d        0x1 ./afe_lib/Src/heartrate1_3.o
+                0x000000002000159d        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000159d                movingWindowCount
  .bss.movingWindowSize
-                0x000000002000159e        0x1 ./afe_lib/Src/heartrate1_3.o
+                0x000000002000159e        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000159e                movingWindowSize
- .bss.smallest  0x000000002000159f        0x1 ./afe_lib/Src/heartrate1_3.o
+ .bss.smallest  0x000000002000159f        0x1 ./afe_lib/Src/heartrate_3.o
                 0x000000002000159f                smallest
  .bss.foundPeak
-                0x00000000200015a0        0x1 ./afe_lib/Src/heartrate1_3.o
+                0x00000000200015a0        0x1 ./afe_lib/Src/heartrate_3.o
                 0x00000000200015a0                foundPeak
  .bss.totalFoundPeak
-                0x00000000200015a1        0x1 ./afe_lib/Src/heartrate1_3.o
+                0x00000000200015a1        0x1 ./afe_lib/Src/heartrate_3.o
                 0x00000000200015a1                totalFoundPeak
  *fill*         0x00000000200015a2        0x2 
  .bss.frequency
-                0x00000000200015a4        0x4 ./afe_lib/Src/heartrate1_3.o
+                0x00000000200015a4        0x4 ./afe_lib/Src/heartrate_3.o
                 0x00000000200015a4                frequency
  .bss._i2c_hw_address
                 0x00000000200015a8        0x1 ./afe_lib/Src/heartrate_3_hal.o
@@ -6378,7 +6169,7 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x00000000200015bc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200015bc      0x604 load address 0x000000000800d7e0
+                0x00000000200015bc      0x604 load address 0x000000000800d3d4
                 0x00000000200015c0                . = ALIGN (0x8)
  *fill*         0x00000000200015bc        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -6458,130 +6249,126 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .ARM.attributes
                 0x00000000000004fd       0x2d ./afe_lib/Src/f103.o
  .ARM.attributes
-                0x000000000000052a       0x2d ./afe_lib/Src/heartrate1_3.o
+                0x000000000000052a       0x2d ./afe_lib/Src/heartrate_3.o
  .ARM.attributes
-                0x0000000000000557       0x2d ./afe_lib/Src/heartrate2_3.o
+                0x0000000000000557       0x2d ./afe_lib/Src/heartrate_3_hal.o
  .ARM.attributes
-                0x0000000000000584       0x2d ./afe_lib/Src/heartrate_3_hal.o
+                0x0000000000000584       0x2d ./afe_lib/Src/heartrate_3_hw.o
  .ARM.attributes
-                0x00000000000005b1       0x2d ./afe_lib/Src/heartrate_3_hw.o
+                0x00000000000005b1       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000000000005de       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
+                0x00000000000005de       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000000060b       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                0x000000000000060b       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000000000000638       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+                0x0000000000000638       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x0000000000000665       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
+                0x0000000000000665       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000692       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000692       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000006bf       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+                0x00000000000006bf       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000000000006ec       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                0x00000000000006ec       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000719       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000719       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000746       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000000746       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000000000000773       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+                0x0000000000000773       0x17 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000000000007a0       0x17 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
+                0x000000000000078a       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000000000007b7       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x00000000000007b7       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000000000007e4       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000000007e4       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000811       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000000811       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x000000000000083e       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                0x000000000000083e       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x000000000000086b       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x000000000000086b       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x0000000000000898       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000000000898       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000000000008c5       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                0x00000000000008c5       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000000000008f2       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x00000000000008f2       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x000000000000091f       0x2d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x000000000000094c       0x1d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x000000000000091f       0x1d c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(afe4404.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x0000000000000000    0x185ec
+.debug_info     0x0000000000000000    0x180c9
  .debug_info    0x0000000000000000      0x27d ./Buffer/Src/Buffer.o
- .debug_info    0x000000000000027d     0x15e6 ./Core/Src/main.o
- .debug_info    0x0000000000001863      0xe43 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_info    0x00000000000026a6      0xbf9 ./Core/Src/stm32f1xx_it.o
- .debug_info    0x000000000000329f      0x171 ./Core/Src/sysmem.o
- .debug_info    0x0000000000003410      0x23d ./Core/Src/system_stm32f1xx.o
- .debug_info    0x000000000000364d       0x22 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x000000000000366f      0x734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x0000000000003da3      0xb20 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x00000000000048c3      0x73f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_info    0x0000000000005002      0x615 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x0000000000005617     0x2734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_info    0x0000000000007d4b     0x16ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
- .debug_info    0x00000000000093f6      0x728 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
- .debug_info    0x0000000000009b1e      0x860 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x000000000000a37e      0x3e0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_info    0x000000000000a75e     0x29de ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_info    0x000000000000d13c     0x1513 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_info    0x000000000000e64f     0x190d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
- .debug_info    0x000000000000ff5c     0x10f8 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_info    0x0000000000011054      0xb09 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_info    0x0000000000011b5d      0x9bd ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_info    0x000000000001251a      0x71c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_info    0x0000000000012c36      0x680 ./USB_DEVICE/App/usb_device.o
- .debug_info    0x00000000000132b6      0x8f6 ./USB_DEVICE/App/usbd_cdc_if.o
- .debug_info    0x0000000000013bac      0x48b ./USB_DEVICE/App/usbd_desc.o
- .debug_info    0x0000000000014037     0x193c ./USB_DEVICE/Target/usbd_conf.o
- .debug_info    0x0000000000015973      0x930 ./afe_lib/Src/f103.o
- .debug_info    0x00000000000162a3      0x4e8 ./afe_lib/Src/heartrate1_3.o
- .debug_info    0x000000000001678b      0x4e8 ./afe_lib/Src/heartrate2_3.o
- .debug_info    0x0000000000016c73      0x280 ./afe_lib/Src/heartrate_3_hal.o
- .debug_info    0x0000000000016ef3     0x16f9 ./afe_lib/Src/heartrate_3_hw.o
+ .debug_info    0x000000000000027d     0x15ab ./Core/Src/main.o
+ .debug_info    0x0000000000001828      0xe43 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_info    0x000000000000266b      0xbf9 ./Core/Src/stm32f1xx_it.o
+ .debug_info    0x0000000000003264      0x171 ./Core/Src/sysmem.o
+ .debug_info    0x00000000000033d5      0x23d ./Core/Src/system_stm32f1xx.o
+ .debug_info    0x0000000000003612       0x22 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x0000000000003634      0x734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x0000000000003d68      0xb20 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000004888      0x73f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_info    0x0000000000004fc7      0x615 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x00000000000055dc     0x2734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_info    0x0000000000007d10     0x16ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_info    0x00000000000093bb      0x728 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_info    0x0000000000009ae3      0x860 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x000000000000a343      0x3e0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_info    0x000000000000a723     0x29de ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_info    0x000000000000d101     0x1513 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_info    0x000000000000e614     0x190d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_info    0x000000000000ff21     0x10f8 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_info    0x0000000000011019      0xb09 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_info    0x0000000000011b22      0x9bd ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_info    0x00000000000124df      0x71c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_info    0x0000000000012bfb      0x680 ./USB_DEVICE/App/usb_device.o
+ .debug_info    0x000000000001327b      0x8f6 ./USB_DEVICE/App/usbd_cdc_if.o
+ .debug_info    0x0000000000013b71      0x48b ./USB_DEVICE/App/usbd_desc.o
+ .debug_info    0x0000000000013ffc     0x193c ./USB_DEVICE/Target/usbd_conf.o
+ .debug_info    0x0000000000015938      0x930 ./afe_lib/Src/f103.o
+ .debug_info    0x0000000000016268      0x4e8 ./afe_lib/Src/heartrate_3.o
+ .debug_info    0x0000000000016750      0x280 ./afe_lib/Src/heartrate_3_hal.o
+ .debug_info    0x00000000000169d0     0x16f9 ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_abbrev   0x0000000000000000     0x3eae
+.debug_abbrev   0x0000000000000000     0x3ca8
  .debug_abbrev  0x0000000000000000      0x14f ./Buffer/Src/Buffer.o
- .debug_abbrev  0x000000000000014f      0x33a ./Core/Src/main.o
- .debug_abbrev  0x0000000000000489      0x1e1 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_abbrev  0x000000000000066a      0x1d1 ./Core/Src/stm32f1xx_it.o
- .debug_abbrev  0x000000000000083b       0xbb ./Core/Src/sysmem.o
- .debug_abbrev  0x00000000000008f6      0x13b ./Core/Src/system_stm32f1xx.o
- .debug_abbrev  0x0000000000000a31       0x12 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_abbrev  0x0000000000000a43      0x1fb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_abbrev  0x0000000000000c3e      0x2ed ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_abbrev  0x0000000000000f2b      0x1fe ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_abbrev  0x0000000000001129      0x1bb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_abbrev  0x00000000000012e4      0x288 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_abbrev  0x000000000000156c      0x2b9 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
- .debug_abbrev  0x0000000000001825      0x17f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
- .debug_abbrev  0x00000000000019a4      0x2a8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_abbrev  0x0000000000001c4c      0x182 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_abbrev  0x0000000000001dce      0x25d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_abbrev  0x000000000000202b      0x265 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_abbrev  0x0000000000002290      0x1cd ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
- .debug_abbrev  0x000000000000245d      0x2c0 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_abbrev  0x000000000000271d      0x236 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_abbrev  0x0000000000002953      0x257 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_abbrev  0x0000000000002baa      0x183 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_abbrev  0x0000000000002d2d      0x183 ./USB_DEVICE/App/usb_device.o
- .debug_abbrev  0x0000000000002eb0      0x281 ./USB_DEVICE/App/usbd_cdc_if.o
- .debug_abbrev  0x0000000000003131      0x1fa ./USB_DEVICE/App/usbd_desc.o
- .debug_abbrev  0x000000000000332b      0x305 ./USB_DEVICE/Target/usbd_conf.o
- .debug_abbrev  0x0000000000003630      0x1eb ./afe_lib/Src/f103.o
- .debug_abbrev  0x000000000000381b      0x1d7 ./afe_lib/Src/heartrate1_3.o
- .debug_abbrev  0x00000000000039f2      0x1d7 ./afe_lib/Src/heartrate2_3.o
- .debug_abbrev  0x0000000000003bc9      0x12b ./afe_lib/Src/heartrate_3_hal.o
- .debug_abbrev  0x0000000000003cf4      0x1ba ./afe_lib/Src/heartrate_3_hw.o
+ .debug_abbrev  0x000000000000014f      0x30b ./Core/Src/main.o
+ .debug_abbrev  0x000000000000045a      0x1e1 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_abbrev  0x000000000000063b      0x1d1 ./Core/Src/stm32f1xx_it.o
+ .debug_abbrev  0x000000000000080c       0xbb ./Core/Src/sysmem.o
+ .debug_abbrev  0x00000000000008c7      0x13b ./Core/Src/system_stm32f1xx.o
+ .debug_abbrev  0x0000000000000a02       0x12 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_abbrev  0x0000000000000a14      0x1fb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_abbrev  0x0000000000000c0f      0x2ed ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_abbrev  0x0000000000000efc      0x1fe ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_abbrev  0x00000000000010fa      0x1bb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_abbrev  0x00000000000012b5      0x288 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_abbrev  0x000000000000153d      0x2b9 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_abbrev  0x00000000000017f6      0x17f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_abbrev  0x0000000000001975      0x2a8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_abbrev  0x0000000000001c1d      0x182 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_abbrev  0x0000000000001d9f      0x25d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_abbrev  0x0000000000001ffc      0x265 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_abbrev  0x0000000000002261      0x1cd ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_abbrev  0x000000000000242e      0x2c0 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_abbrev  0x00000000000026ee      0x236 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_abbrev  0x0000000000002924      0x257 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_abbrev  0x0000000000002b7b      0x183 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_abbrev  0x0000000000002cfe      0x183 ./USB_DEVICE/App/usb_device.o
+ .debug_abbrev  0x0000000000002e81      0x281 ./USB_DEVICE/App/usbd_cdc_if.o
+ .debug_abbrev  0x0000000000003102      0x1fa ./USB_DEVICE/App/usbd_desc.o
+ .debug_abbrev  0x00000000000032fc      0x305 ./USB_DEVICE/Target/usbd_conf.o
+ .debug_abbrev  0x0000000000003601      0x1eb ./afe_lib/Src/f103.o
+ .debug_abbrev  0x00000000000037ec      0x1d7 ./afe_lib/Src/heartrate_3.o
+ .debug_abbrev  0x00000000000039c3      0x12b ./afe_lib/Src/heartrate_3_hal.o
+ .debug_abbrev  0x0000000000003aee      0x1ba ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_aranges  0x0000000000000000     0x1690
+.debug_aranges  0x0000000000000000     0x1630
  .debug_aranges
                 0x0000000000000000       0x50 ./Buffer/Src/Buffer.o
  .debug_aranges
@@ -6639,15 +6426,13 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_aranges
                 0x00000000000013b0       0x50 ./afe_lib/Src/f103.o
  .debug_aranges
-                0x0000000000001400       0x60 ./afe_lib/Src/heartrate1_3.o
+                0x0000000000001400       0x60 ./afe_lib/Src/heartrate_3.o
  .debug_aranges
-                0x0000000000001460       0x60 ./afe_lib/Src/heartrate2_3.o
+                0x0000000000001460       0x38 ./afe_lib/Src/heartrate_3_hal.o
  .debug_aranges
-                0x00000000000014c0       0x38 ./afe_lib/Src/heartrate_3_hal.o
- .debug_aranges
-                0x00000000000014f8      0x198 ./afe_lib/Src/heartrate_3_hw.o
+                0x0000000000001498      0x198 ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_ranges   0x0000000000000000     0x14c0
+.debug_ranges   0x0000000000000000     0x1470
  .debug_ranges  0x0000000000000000       0x40 ./Buffer/Src/Buffer.o
  .debug_ranges  0x0000000000000040       0x60 ./Core/Src/main.o
  .debug_ranges  0x00000000000000a0       0x30 ./Core/Src/stm32f1xx_hal_msp.o
@@ -6676,12 +6461,11 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_ranges  0x00000000000010d8       0x50 ./USB_DEVICE/App/usbd_desc.o
  .debug_ranges  0x0000000000001128      0x108 ./USB_DEVICE/Target/usbd_conf.o
  .debug_ranges  0x0000000000001230       0x40 ./afe_lib/Src/f103.o
- .debug_ranges  0x0000000000001270       0x50 ./afe_lib/Src/heartrate1_3.o
- .debug_ranges  0x00000000000012c0       0x50 ./afe_lib/Src/heartrate2_3.o
- .debug_ranges  0x0000000000001310       0x28 ./afe_lib/Src/heartrate_3_hal.o
- .debug_ranges  0x0000000000001338      0x188 ./afe_lib/Src/heartrate_3_hw.o
+ .debug_ranges  0x0000000000001270       0x50 ./afe_lib/Src/heartrate_3.o
+ .debug_ranges  0x00000000000012c0       0x28 ./afe_lib/Src/heartrate_3_hal.o
+ .debug_ranges  0x00000000000012e8      0x188 ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_macro    0x0000000000000000    0x1d049
+.debug_macro    0x0000000000000000    0x1cc01
  .debug_macro   0x0000000000000000      0x13c ./Buffer/Src/Buffer.o
  .debug_macro   0x000000000000013c      0xa72 ./Buffer/Src/Buffer.o
  .debug_macro   0x0000000000000bae       0x18 ./Buffer/Src/Buffer.o
@@ -6708,203 +6492,199 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000000000000156c      0x103 ./Buffer/Src/Buffer.o
  .debug_macro   0x000000000000166f       0x6a ./Buffer/Src/Buffer.o
  .debug_macro   0x00000000000016d9      0x1df ./Buffer/Src/Buffer.o
- .debug_macro   0x00000000000018b8      0x44c ./Core/Src/main.o
- .debug_macro   0x0000000000001d04      0x221 ./Core/Src/main.o
- .debug_macro   0x0000000000001f25       0x2e ./Core/Src/main.o
- .debug_macro   0x0000000000001f53       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000001f75       0x8e ./Core/Src/main.o
- .debug_macro   0x0000000000002003       0x51 ./Core/Src/main.o
- .debug_macro   0x0000000000002054       0x1c ./Core/Src/main.o
- .debug_macro   0x0000000000002070       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000002092       0xbd ./Core/Src/main.o
- .debug_macro   0x000000000000214f      0xd23 ./Core/Src/main.o
- .debug_macro   0x0000000000002e72     0xe09e ./Core/Src/main.o
- .debug_macro   0x0000000000010f10       0x6d ./Core/Src/main.o
- .debug_macro   0x0000000000010f7d     0x3468 ./Core/Src/main.o
- .debug_macro   0x00000000000143e5      0x174 ./Core/Src/main.o
- .debug_macro   0x0000000000014559       0x5c ./Core/Src/main.o
- .debug_macro   0x00000000000145b5      0x5be ./Core/Src/main.o
- .debug_macro   0x0000000000014b73      0x289 ./Core/Src/main.o
- .debug_macro   0x0000000000014dfc      0x1cb ./Core/Src/main.o
- .debug_macro   0x0000000000014fc7      0x114 ./Core/Src/main.o
- .debug_macro   0x00000000000150db      0x1b2 ./Core/Src/main.o
- .debug_macro   0x000000000001528d       0x27 ./Core/Src/main.o
- .debug_macro   0x00000000000152b4      0x136 ./Core/Src/main.o
- .debug_macro   0x00000000000153ea      0x1bc ./Core/Src/main.o
- .debug_macro   0x00000000000155a6       0x34 ./Core/Src/main.o
- .debug_macro   0x00000000000155da       0x3c ./Core/Src/main.o
- .debug_macro   0x0000000000015616       0x57 ./Core/Src/main.o
- .debug_macro   0x000000000001566d       0x88 ./Core/Src/main.o
- .debug_macro   0x00000000000156f5      0x241 ./Core/Src/main.o
- .debug_macro   0x0000000000015936      0x287 ./Core/Src/main.o
- .debug_macro   0x0000000000015bbd      0x141 ./Core/Src/main.o
- .debug_macro   0x0000000000015cfe      0x8d1 ./Core/Src/main.o
- .debug_macro   0x00000000000165cf       0x65 ./Core/Src/main.o
- .debug_macro   0x0000000000016634      0x249 ./Core/Src/main.o
- .debug_macro   0x000000000001687d       0x83 ./Core/Src/main.o
- .debug_macro   0x0000000000016900       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000016922       0x52 ./Core/Src/main.o
- .debug_macro   0x0000000000016974       0x35 ./Core/Src/main.o
- .debug_macro   0x00000000000169a9       0x1c ./Core/Src/main.o
- .debug_macro   0x00000000000169c5       0x10 ./Core/Src/main.o
- .debug_macro   0x00000000000169d5       0x10 ./Core/Src/main.o
- .debug_macro   0x00000000000169e5       0x1c ./Core/Src/main.o
- .debug_macro   0x0000000000016a01       0x52 ./Core/Src/main.o
- .debug_macro   0x0000000000016a53       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000016a75       0x10 ./Core/Src/main.o
- .debug_macro   0x0000000000016a85       0x52 ./Core/Src/main.o
- .debug_macro   0x0000000000016ad7       0xd5 ./Core/Src/main.o
- .debug_macro   0x0000000000016bac       0x1c ./Core/Src/main.o
- .debug_macro   0x0000000000016bc8       0x3d ./Core/Src/main.o
- .debug_macro   0x0000000000016c05       0x16 ./Core/Src/main.o
- .debug_macro   0x0000000000016c1b      0x145 ./Core/Src/main.o
- .debug_macro   0x0000000000016d60       0x16 ./Core/Src/main.o
- .debug_macro   0x0000000000016d76       0x20 ./Core/Src/main.o
- .debug_macro   0x0000000000016d96       0xb8 ./Core/Src/main.o
- .debug_macro   0x0000000000016e4e       0x10 ./Core/Src/main.o
- .debug_macro   0x0000000000016e5e      0x23c ./Core/Src/main.o
- .debug_macro   0x000000000001709a       0x65 ./Core/Src/main.o
- .debug_macro   0x00000000000170ff      0x1c8 ./Core/Src/main.o
- .debug_macro   0x00000000000172c7       0x8f ./Core/Src/main.o
- .debug_macro   0x0000000000017356       0x10 ./Core/Src/main.o
- .debug_macro   0x0000000000017366      0x3e0 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_macro   0x0000000000017746      0x3ea ./Core/Src/stm32f1xx_it.o
- .debug_macro   0x0000000000017b30       0xff ./Core/Src/sysmem.o
- .debug_macro   0x0000000000017c2f      0x23b ./Core/Src/sysmem.o
- .debug_macro   0x0000000000017e6a      0x1c7 ./Core/Src/system_stm32f1xx.o
- .debug_macro   0x0000000000018031      0x1eb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_macro   0x000000000001821c      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_macro   0x00000000000183e3      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_macro   0x00000000000185aa      0x232 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_macro   0x00000000000187dc      0x20e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_macro   0x00000000000189ea      0x1d3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
- .debug_macro   0x0000000000018bbd      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
- .debug_macro   0x0000000000018d84      0x1d9 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_macro   0x0000000000018f5d      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_macro   0x0000000000019124      0x1c8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_macro   0x00000000000192ec      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_macro   0x00000000000194b3      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
- .debug_macro   0x000000000001967a      0x439 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019ab3       0x16 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019ac9       0x97 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019b60       0xfd ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019c5d       0x56 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019cb3       0x5f ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_macro   0x0000000000019d12      0x420 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_macro   0x000000000001a132      0x1ce ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_macro   0x000000000001a300      0x42a ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_macro   0x000000000001a72a      0x426 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_macro   0x000000000001ab50      0x45f ./USB_DEVICE/App/usb_device.o
- .debug_macro   0x000000000001afaf       0x22 ./USB_DEVICE/App/usb_device.o
- .debug_macro   0x000000000001afd1       0x16 ./USB_DEVICE/App/usb_device.o
- .debug_macro   0x000000000001afe7      0x444 ./USB_DEVICE/App/usbd_cdc_if.o
- .debug_macro   0x000000000001b42b      0x45d ./USB_DEVICE/App/usbd_desc.o
- .debug_macro   0x000000000001b888       0x1c ./USB_DEVICE/App/usbd_desc.o
- .debug_macro   0x000000000001b8a4      0x443 ./USB_DEVICE/Target/usbd_conf.o
- .debug_macro   0x000000000001bce7      0x456 ./afe_lib/Src/f103.o
- .debug_macro   0x000000000001c13d      0x3d0 ./afe_lib/Src/heartrate1_3.o
- .debug_macro   0x000000000001c50d      0x3d0 ./afe_lib/Src/heartrate2_3.o
- .debug_macro   0x000000000001c8dd      0x3aa ./afe_lib/Src/heartrate_3_hal.o
- .debug_macro   0x000000000001cc87      0x3c2 ./afe_lib/Src/heartrate_3_hw.o
+ .debug_macro   0x00000000000018b8      0x442 ./Core/Src/main.o
+ .debug_macro   0x0000000000001cfa      0x221 ./Core/Src/main.o
+ .debug_macro   0x0000000000001f1b       0x2e ./Core/Src/main.o
+ .debug_macro   0x0000000000001f49       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000001f6b       0x8e ./Core/Src/main.o
+ .debug_macro   0x0000000000001ff9       0x51 ./Core/Src/main.o
+ .debug_macro   0x000000000000204a       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000002066       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000002088       0xbd ./Core/Src/main.o
+ .debug_macro   0x0000000000002145      0xd23 ./Core/Src/main.o
+ .debug_macro   0x0000000000002e68     0xe09e ./Core/Src/main.o
+ .debug_macro   0x0000000000010f06       0x6d ./Core/Src/main.o
+ .debug_macro   0x0000000000010f73     0x3468 ./Core/Src/main.o
+ .debug_macro   0x00000000000143db      0x174 ./Core/Src/main.o
+ .debug_macro   0x000000000001454f       0x5c ./Core/Src/main.o
+ .debug_macro   0x00000000000145ab      0x5be ./Core/Src/main.o
+ .debug_macro   0x0000000000014b69      0x289 ./Core/Src/main.o
+ .debug_macro   0x0000000000014df2      0x1cb ./Core/Src/main.o
+ .debug_macro   0x0000000000014fbd      0x114 ./Core/Src/main.o
+ .debug_macro   0x00000000000150d1      0x1b2 ./Core/Src/main.o
+ .debug_macro   0x0000000000015283       0x27 ./Core/Src/main.o
+ .debug_macro   0x00000000000152aa      0x136 ./Core/Src/main.o
+ .debug_macro   0x00000000000153e0      0x1bc ./Core/Src/main.o
+ .debug_macro   0x000000000001559c       0x34 ./Core/Src/main.o
+ .debug_macro   0x00000000000155d0       0x3c ./Core/Src/main.o
+ .debug_macro   0x000000000001560c       0x57 ./Core/Src/main.o
+ .debug_macro   0x0000000000015663       0x88 ./Core/Src/main.o
+ .debug_macro   0x00000000000156eb      0x241 ./Core/Src/main.o
+ .debug_macro   0x000000000001592c      0x287 ./Core/Src/main.o
+ .debug_macro   0x0000000000015bb3      0x141 ./Core/Src/main.o
+ .debug_macro   0x0000000000015cf4      0x8d1 ./Core/Src/main.o
+ .debug_macro   0x00000000000165c5       0x65 ./Core/Src/main.o
+ .debug_macro   0x000000000001662a      0x249 ./Core/Src/main.o
+ .debug_macro   0x0000000000016873       0x83 ./Core/Src/main.o
+ .debug_macro   0x00000000000168f6       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000016918       0x52 ./Core/Src/main.o
+ .debug_macro   0x000000000001696a       0x35 ./Core/Src/main.o
+ .debug_macro   0x000000000001699f       0x1c ./Core/Src/main.o
+ .debug_macro   0x00000000000169bb       0x10 ./Core/Src/main.o
+ .debug_macro   0x00000000000169cb       0x10 ./Core/Src/main.o
+ .debug_macro   0x00000000000169db       0x1c ./Core/Src/main.o
+ .debug_macro   0x00000000000169f7       0x52 ./Core/Src/main.o
+ .debug_macro   0x0000000000016a49       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000016a6b       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000016a7b       0x52 ./Core/Src/main.o
+ .debug_macro   0x0000000000016acd       0xd5 ./Core/Src/main.o
+ .debug_macro   0x0000000000016ba2       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000016bbe       0x3d ./Core/Src/main.o
+ .debug_macro   0x0000000000016bfb       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000016c11      0x145 ./Core/Src/main.o
+ .debug_macro   0x0000000000016d56       0x16 ./Core/Src/main.o
+ .debug_macro   0x0000000000016d6c       0x20 ./Core/Src/main.o
+ .debug_macro   0x0000000000016d8c       0xb8 ./Core/Src/main.o
+ .debug_macro   0x0000000000016e44       0x10 ./Core/Src/main.o
+ .debug_macro   0x0000000000016e54      0x23c ./Core/Src/main.o
+ .debug_macro   0x0000000000017090       0x65 ./Core/Src/main.o
+ .debug_macro   0x00000000000170f5      0x1c8 ./Core/Src/main.o
+ .debug_macro   0x00000000000172bd       0x8f ./Core/Src/main.o
+ .debug_macro   0x000000000001734c       0x10 ./Core/Src/main.o
+ .debug_macro   0x000000000001735c      0x3d6 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_macro   0x0000000000017732      0x3e0 ./Core/Src/stm32f1xx_it.o
+ .debug_macro   0x0000000000017b12       0xff ./Core/Src/sysmem.o
+ .debug_macro   0x0000000000017c11      0x23b ./Core/Src/sysmem.o
+ .debug_macro   0x0000000000017e4c      0x1c7 ./Core/Src/system_stm32f1xx.o
+ .debug_macro   0x0000000000018013      0x1eb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_macro   0x00000000000181fe      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_macro   0x00000000000183c5      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_macro   0x000000000001858c      0x232 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_macro   0x00000000000187be      0x20e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_macro   0x00000000000189cc      0x1d3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_macro   0x0000000000018b9f      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_macro   0x0000000000018d66      0x1d9 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_macro   0x0000000000018f3f      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_macro   0x0000000000019106      0x1c8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_macro   0x00000000000192ce      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_macro   0x0000000000019495      0x1c7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_macro   0x000000000001965c      0x42f ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019a8b       0x16 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019aa1       0x97 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019b38       0xfd ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019c35       0x56 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019c8b       0x5f ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_macro   0x0000000000019cea      0x416 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_macro   0x000000000001a100      0x1ce ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_macro   0x000000000001a2ce      0x420 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_macro   0x000000000001a6ee      0x41c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_macro   0x000000000001ab0a      0x455 ./USB_DEVICE/App/usb_device.o
+ .debug_macro   0x000000000001af5f       0x22 ./USB_DEVICE/App/usb_device.o
+ .debug_macro   0x000000000001af81       0x16 ./USB_DEVICE/App/usb_device.o
+ .debug_macro   0x000000000001af97      0x43a ./USB_DEVICE/App/usbd_cdc_if.o
+ .debug_macro   0x000000000001b3d1      0x453 ./USB_DEVICE/App/usbd_desc.o
+ .debug_macro   0x000000000001b824       0x1c ./USB_DEVICE/App/usbd_desc.o
+ .debug_macro   0x000000000001b840      0x439 ./USB_DEVICE/Target/usbd_conf.o
+ .debug_macro   0x000000000001bc79      0x44c ./afe_lib/Src/f103.o
+ .debug_macro   0x000000000001c0c5      0x3d0 ./afe_lib/Src/heartrate_3.o
+ .debug_macro   0x000000000001c495      0x3aa ./afe_lib/Src/heartrate_3_hal.o
+ .debug_macro   0x000000000001c83f      0x3c2 ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_line     0x0000000000000000    0x1d4cc
+.debug_line     0x0000000000000000    0x1c6b0
  .debug_line    0x0000000000000000      0x602 ./Buffer/Src/Buffer.o
- .debug_line    0x0000000000000602      0xd96 ./Core/Src/main.o
- .debug_line    0x0000000000001398      0xa48 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x0000000000001de0      0xafb ./Core/Src/stm32f1xx_it.o
- .debug_line    0x00000000000028db      0x4f4 ./Core/Src/sysmem.o
- .debug_line    0x0000000000002dcf      0x73e ./Core/Src/system_stm32f1xx.o
- .debug_line    0x000000000000350d       0x87 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_line    0x0000000000003594      0x96b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000003eff      0xb53 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x0000000000004a52      0xdc3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_line    0x0000000000005815      0xa02 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x0000000000006217     0x3a55 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_line    0x0000000000009c6c     0x1359 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
- .debug_line    0x000000000000afc5      0x739 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
- .debug_line    0x000000000000b6fe      0xd79 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x000000000000c477      0x8b7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_line    0x000000000000cd2e     0x3321 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_line    0x000000000001004f     0x1893 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_line    0x00000000000118e2     0x109e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
- .debug_line    0x0000000000012980      0xde1 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_line    0x0000000000013761      0xe61 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_line    0x00000000000145c2     0x1083 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_line    0x0000000000015645      0xaf7 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_line    0x000000000001613c      0xab7 ./USB_DEVICE/App/usb_device.o
- .debug_line    0x0000000000016bf3      0xb35 ./USB_DEVICE/App/usbd_cdc_if.o
- .debug_line    0x0000000000017728      0xb80 ./USB_DEVICE/App/usbd_desc.o
- .debug_line    0x00000000000182a8      0xe9c ./USB_DEVICE/Target/usbd_conf.o
- .debug_line    0x0000000000019144      0xb28 ./afe_lib/Src/f103.o
- .debug_line    0x0000000000019c6c      0xd36 ./afe_lib/Src/heartrate1_3.o
- .debug_line    0x000000000001a9a2      0xd36 ./afe_lib/Src/heartrate2_3.o
- .debug_line    0x000000000001b6d8      0x9c6 ./afe_lib/Src/heartrate_3_hal.o
- .debug_line    0x000000000001c09e     0x142e ./afe_lib/Src/heartrate_3_hw.o
+ .debug_line    0x0000000000000602      0xd83 ./Core/Src/main.o
+ .debug_line    0x0000000000001385      0xa35 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x0000000000001dba      0xae8 ./Core/Src/stm32f1xx_it.o
+ .debug_line    0x00000000000028a2      0x4f4 ./Core/Src/sysmem.o
+ .debug_line    0x0000000000002d96      0x73e ./Core/Src/system_stm32f1xx.o
+ .debug_line    0x00000000000034d4       0x87 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_line    0x000000000000355b      0x96b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000003ec6      0xb53 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000004a19      0xdc3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_line    0x00000000000057dc      0xa02 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x00000000000061de     0x3a55 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_line    0x0000000000009c33     0x1359 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_line    0x000000000000af8c      0x739 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_line    0x000000000000b6c5      0xd79 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x000000000000c43e      0x8b7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_line    0x000000000000ccf5     0x3321 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_line    0x0000000000010016     0x1893 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_line    0x00000000000118a9     0x109e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_line    0x0000000000012947      0xdce ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_line    0x0000000000013715      0xe4e ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_line    0x0000000000014563     0x1070 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_line    0x00000000000155d3      0xae4 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_line    0x00000000000160b7      0xaa4 ./USB_DEVICE/App/usb_device.o
+ .debug_line    0x0000000000016b5b      0xb22 ./USB_DEVICE/App/usbd_cdc_if.o
+ .debug_line    0x000000000001767d      0xb6d ./USB_DEVICE/App/usbd_desc.o
+ .debug_line    0x00000000000181ea      0xe89 ./USB_DEVICE/Target/usbd_conf.o
+ .debug_line    0x0000000000019073      0xb15 ./afe_lib/Src/f103.o
+ .debug_line    0x0000000000019b88      0xd34 ./afe_lib/Src/heartrate_3.o
+ .debug_line    0x000000000001a8bc      0x9c6 ./afe_lib/Src/heartrate_3_hal.o
+ .debug_line    0x000000000001b282     0x142e ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_str      0x0000000000000000    0x90fd8
+.debug_str      0x0000000000000000    0x90f02
  .debug_str     0x0000000000000000     0x6c4b ./Buffer/Src/Buffer.o
                                        0x6e65 (size before relaxing)
- .debug_str     0x0000000000006c4b    0x850e6 ./Core/Src/main.o
-                                      0x8c253 (size before relaxing)
- .debug_str     0x000000000008bd31       0xdb ./Core/Src/stm32f1xx_hal_msp.o
-                                      0x8ae34 (size before relaxing)
- .debug_str     0x000000000008be0c      0x482 ./Core/Src/stm32f1xx_it.o
-                                      0x8abb4 (size before relaxing)
- .debug_str     0x000000000008c28e      0x4da ./Core/Src/sysmem.o
+ .debug_str     0x0000000000006c4b    0x850b2 ./Core/Src/main.o
+                                      0x8c21f (size before relaxing)
+ .debug_str     0x000000000008bcfd       0xdb ./Core/Src/stm32f1xx_hal_msp.o
+                                      0x8ae22 (size before relaxing)
+ .debug_str     0x000000000008bdd8      0x482 ./Core/Src/stm32f1xx_it.o
+                                      0x8aba2 (size before relaxing)
+ .debug_str     0x000000000008c25a      0x4da ./Core/Src/sysmem.o
                                        0x5d62 (size before relaxing)
- .debug_str     0x000000000008c768       0x7e ./Core/Src/system_stm32f1xx.o
+ .debug_str     0x000000000008c734       0x7e ./Core/Src/system_stm32f1xx.o
                                       0x85908 (size before relaxing)
- .debug_str     0x000000000008c7e6       0x36 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_str     0x000000000008c7b2       0x36 ./Core/Startup/startup_stm32f103c8tx.o
                                          0x6c (size before relaxing)
- .debug_str     0x000000000008c81c      0x384 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x000000000008c7e8      0x384 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x8603b (size before relaxing)
- .debug_str     0x000000000008cba0      0x26c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x000000000008cb6c      0x26c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x85f87 (size before relaxing)
- .debug_str     0x000000000008ce0c      0x235 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_str     0x000000000008cdd8      0x235 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
                                       0x85cb1 (size before relaxing)
- .debug_str     0x000000000008d041      0x2c8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000008d00d      0x2c8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x85c8e (size before relaxing)
- .debug_str     0x000000000008d309      0x7f6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_str     0x000000000008d2d5      0x7f6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
                                       0x8697c (size before relaxing)
- .debug_str     0x000000000008daff      0x573 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_str     0x000000000008dacb      0x573 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
                                       0x861e0 (size before relaxing)
- .debug_str     0x000000000008e072      0x170 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_str     0x000000000008e03e      0x170 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
                                       0x85d7c (size before relaxing)
- .debug_str     0x000000000008e1e2      0x209 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x000000000008e1ae      0x209 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x85d37 (size before relaxing)
- .debug_str     0x000000000008e3eb       0x9f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_str     0x000000000008e3b7       0x9f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
                                       0x85a87 (size before relaxing)
- .debug_str     0x000000000008e48a      0xde1 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_str     0x000000000008e456      0xde1 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
                                       0x86d22 (size before relaxing)
- .debug_str     0x000000000008f26b      0x493 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x000000000008f237      0x493 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
                                       0x8653e (size before relaxing)
- .debug_str     0x000000000008f6fe      0x123 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_str     0x000000000008f6ca      0x123 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
                                       0x85daf (size before relaxing)
- .debug_str     0x000000000008f821      0x645 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
-                                      0x8b9a9 (size before relaxing)
- .debug_str     0x000000000008fe66      0x281 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
-                                      0x8b2e4 (size before relaxing)
- .debug_str     0x00000000000900e7      0x120 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
-                                      0x8b1fe (size before relaxing)
- .debug_str     0x0000000000090207       0x51 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
-                                      0x8b12b (size before relaxing)
- .debug_str     0x0000000000090258       0xc6 ./USB_DEVICE/App/usb_device.o
-                                      0x8b4b6 (size before relaxing)
- .debug_str     0x000000000009031e       0x8d ./USB_DEVICE/App/usbd_cdc_if.o
-                                      0x8b546 (size before relaxing)
- .debug_str     0x00000000000903ab      0x258 ./USB_DEVICE/App/usbd_desc.o
-                                      0x8b067 (size before relaxing)
- .debug_str     0x0000000000090603       0x73 ./USB_DEVICE/Target/usbd_conf.o
-                                      0x8bf36 (size before relaxing)
- .debug_str     0x0000000000090676       0x75 ./afe_lib/Src/f103.o
-                                      0x8b59c (size before relaxing)
- .debug_str     0x00000000000906eb      0x167 ./afe_lib/Src/heartrate1_3.o
-                                      0x8a447 (size before relaxing)
- .debug_str     0x0000000000090852       0x84 ./afe_lib/Src/heartrate2_3.o
-                                      0x8a446 (size before relaxing)
- .debug_str     0x00000000000908d6       0x94 ./afe_lib/Src/heartrate_3_hal.o
+ .debug_str     0x000000000008f7ed      0x645 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+                                      0x8b997 (size before relaxing)
+ .debug_str     0x000000000008fe32      0x281 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+                                      0x8b2d2 (size before relaxing)
+ .debug_str     0x00000000000900b3      0x120 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+                                      0x8b1ec (size before relaxing)
+ .debug_str     0x00000000000901d3       0x51 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+                                      0x8b119 (size before relaxing)
+ .debug_str     0x0000000000090224       0xc6 ./USB_DEVICE/App/usb_device.o
+                                      0x8b4a4 (size before relaxing)
+ .debug_str     0x00000000000902ea       0x8d ./USB_DEVICE/App/usbd_cdc_if.o
+                                      0x8b534 (size before relaxing)
+ .debug_str     0x0000000000090377      0x258 ./USB_DEVICE/App/usbd_desc.o
+                                      0x8b055 (size before relaxing)
+ .debug_str     0x00000000000905cf       0x73 ./USB_DEVICE/Target/usbd_conf.o
+                                      0x8bf24 (size before relaxing)
+ .debug_str     0x0000000000090642       0x75 ./afe_lib/Src/f103.o
+                                      0x8b58a (size before relaxing)
+ .debug_str     0x00000000000906b7      0x149 ./afe_lib/Src/heartrate_3.o
+                                      0x8a43c (size before relaxing)
+ .debug_str     0x0000000000090800       0x94 ./afe_lib/Src/heartrate_3_hal.o
                                       0x89d7a (size before relaxing)
- .debug_str     0x000000000009096a      0x66e ./afe_lib/Src/heartrate_3_hw.o
+ .debug_str     0x0000000000090894      0x66e ./afe_lib/Src/heartrate_3_hw.o
                                       0x8ab05 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
@@ -6936,12 +6716,11 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x0000000000000050       0x51 ./USB_DEVICE/App/usbd_desc.o
  .comment       0x0000000000000050       0x51 ./USB_DEVICE/Target/usbd_conf.o
  .comment       0x0000000000000050       0x51 ./afe_lib/Src/f103.o
- .comment       0x0000000000000050       0x51 ./afe_lib/Src/heartrate1_3.o
- .comment       0x0000000000000050       0x51 ./afe_lib/Src/heartrate2_3.o
+ .comment       0x0000000000000050       0x51 ./afe_lib/Src/heartrate_3.o
  .comment       0x0000000000000050       0x51 ./afe_lib/Src/heartrate_3_hal.o
  .comment       0x0000000000000050       0x51 ./afe_lib/Src/heartrate_3_hw.o
 
-.debug_frame    0x0000000000000000     0x612c
+.debug_frame    0x0000000000000000     0x5fbc
  .debug_frame   0x0000000000000000      0x114 ./Buffer/Src/Buffer.o
  .debug_frame   0x0000000000000114      0x178 ./Core/Src/main.o
  .debug_frame   0x000000000000028c       0xd0 ./Core/Src/stm32f1xx_hal_msp.o
@@ -6969,25 +6748,24 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_frame   0x0000000000004b18      0x160 ./USB_DEVICE/App/usbd_desc.o
  .debug_frame   0x0000000000004c78      0x4a4 ./USB_DEVICE/Target/usbd_conf.o
  .debug_frame   0x000000000000511c      0x100 ./afe_lib/Src/f103.o
- .debug_frame   0x000000000000521c      0x170 ./afe_lib/Src/heartrate1_3.o
- .debug_frame   0x000000000000538c      0x170 ./afe_lib/Src/heartrate2_3.o
- .debug_frame   0x00000000000054fc       0xa8 ./afe_lib/Src/heartrate_3_hal.o
- .debug_frame   0x00000000000055a4      0x6d0 ./afe_lib/Src/heartrate_3_hw.o
- .debug_frame   0x0000000000005c74       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000005c94       0x2c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000005cc0       0x30 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000000000005cf0       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000005d18       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000005d38       0x38 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000005d70       0x4c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000005dbc       0x2c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000005de8       0x6c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000005e54       0x30 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000005e84       0x90 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000005f14       0x60 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000005f74       0x5c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x0000000000005fd0       0xb0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000006080       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000000000060a8       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x00000000000060d0       0x3c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x000000000000610c       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x000000000000521c      0x170 ./afe_lib/Src/heartrate_3.o
+ .debug_frame   0x000000000000538c       0xa8 ./afe_lib/Src/heartrate_3_hal.o
+ .debug_frame   0x0000000000005434      0x6d0 ./afe_lib/Src/heartrate_3_hw.o
+ .debug_frame   0x0000000000005b04       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000005b24       0x2c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000005b50       0x30 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000005b80       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000005ba8       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000005bc8       0x38 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000005c00       0x4c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000005c4c       0x2c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000005c78       0x6c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000005ce4       0x30 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000005d14       0x90 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000005da4       0x60 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000005e04       0x5c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000005e60       0xb0 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000005f10       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000005f38       0x28 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000005f60       0x3c c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000005f9c       0x20 c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)

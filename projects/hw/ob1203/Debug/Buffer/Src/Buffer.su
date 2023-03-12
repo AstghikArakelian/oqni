@@ -1,0 +1,7 @@
+../Buffer/Src/Buffer.c:15:19:Buffer_Init	24	static
+../Buffer/Src/Buffer.c:25:8:Buffer_Size	24	static
+../Buffer/Src/Buffer.c:31:5:Buffer_IsEmpty	16	static
+../Buffer/Src/Buffer.c:36:6:Buffer_Clear	16	static
+../Buffer/Src/Buffer.c:42:5:Buffer_IsFull	16	static
+../Buffer/Src/Buffer.c:47:9:Buffer_Read	24	static
+../Buffer/Src/Buffer.c:59:6:Buffer_Write	16	static

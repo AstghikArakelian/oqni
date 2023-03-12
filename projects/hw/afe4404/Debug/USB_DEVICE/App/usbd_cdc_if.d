@@ -32,10 +32,10 @@ USB_DEVICE/App/usbd_cdc_if.o: ../USB_DEVICE/App/usbd_cdc_if.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
- ../Core/../afe_lib/Inc/heartrate1_3.h \
+ ../Core/../afe_lib/Inc/heartrate_3.h \
  ../Core/../afe_lib/Inc/heartrate_3_hw.h \
  ../Core/../afe_lib/Inc/heartrate_3_hal.h ../Core/../afe_lib/Inc/f103.h \
- ../Buffer/Inc/Buffer.h ../Core/../afe_lib/Inc/heartrate2_3.h \
+ ../Buffer/Inc/Buffer.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
@@ -73,12 +73,11 @@ USB_DEVICE/App/usbd_cdc_if.o: ../USB_DEVICE/App/usbd_cdc_if.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
-../Core/../afe_lib/Inc/heartrate1_3.h:
+../Core/../afe_lib/Inc/heartrate_3.h:
 ../Core/../afe_lib/Inc/heartrate_3_hw.h:
 ../Core/../afe_lib/Inc/heartrate_3_hal.h:
 ../Core/../afe_lib/Inc/f103.h:
 ../Buffer/Inc/Buffer.h:
-../Core/../afe_lib/Inc/heartrate2_3.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:

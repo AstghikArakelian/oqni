@@ -27,10 +27,10 @@ Core/Src/stm32f1xx_hal_msp.o: ../Core/Src/stm32f1xx_hal_msp.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
- ../Core/../afe_lib/Inc/heartrate1_3.h \
+ ../Core/../afe_lib/Inc/heartrate_3.h \
  ../Core/../afe_lib/Inc/heartrate_3_hw.h \
  ../Core/../afe_lib/Inc/heartrate_3_hal.h ../Core/../afe_lib/Inc/f103.h \
- ../Buffer/Inc/Buffer.h ../Core/../afe_lib/Inc/heartrate2_3.h
+ ../Buffer/Inc/Buffer.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -60,9 +60,8 @@ Core/Src/stm32f1xx_hal_msp.o: ../Core/Src/stm32f1xx_hal_msp.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
-../Core/../afe_lib/Inc/heartrate1_3.h:
+../Core/../afe_lib/Inc/heartrate_3.h:
 ../Core/../afe_lib/Inc/heartrate_3_hw.h:
 ../Core/../afe_lib/Inc/heartrate_3_hal.h:
 ../Core/../afe_lib/Inc/f103.h:
 ../Buffer/Inc/Buffer.h:
-../Core/../afe_lib/Inc/heartrate2_3.h:
