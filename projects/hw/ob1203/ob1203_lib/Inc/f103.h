@@ -58,6 +58,7 @@ HAL_StatusTypeDef ob1203_I2C_Read(uint8_t * reg, uint8_t * buffer, uint8_t cmd_s
 void ob1203_Delay_ms(uint32_t ms);
 void ob1203_send_results(uint32_t ppg);
 void ob1203_send_noresult(void);
+void ob1203_send_preambula(void);
 
 
 #endif /* INC_F103_H_ */

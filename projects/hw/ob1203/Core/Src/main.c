@@ -45,7 +45,9 @@ I2C_HandleTypeDef hi2c1;
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
+uint8_t SM_Case = ST_IDLE;
 BUF_HandleTypeDef FIFO_buf = 0;
+uint8_t command = 0;
 uint8_t adc_rdy = 0;
 I2C_HandleTypeDef cur_i2c;
 /* USER CODE END PV */
@@ -57,41 +59,39 @@ static void MX_I2C1_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 static void OB1203_Setup(void);
+static void OB1203_RST(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int Preambula_Check()
+int Command_Check()
 {
-	int preambula_count = PREAMBULA_FIRST_BYTE;
-	int preambula_status = PREAMBULA_NOTRECEIVED;
-	while (! Buffer_IsEmpty(FIFO_buf) && preambula_status == PREAMBULA_NOTRECEIVED)
+	int command_count = COMMAND_FIRST_BYTE;
+	int command_status = COMMAND_NOTRECEIVED;
+	while (! Buffer_IsEmpty(FIFO_buf) && command_status == COMMAND_NOTRECEIVED)
 	{
 		uint8_t data = Buffer_Read(FIFO_buf);
-		switch (preambula_count)
+		switch (command_count)
 		{
-		case PREAMBULA_FIRST_BYTE:
-			preambula_count = (data == 0xaa)? 1: 0;
+		case COMMAND_FIRST_BYTE:
+			command_count = (data == 0)? 1: 0;
+			command_count = (data == 255)? 2: 0;
 			break;
-		case PREAMBULA_SECOND_BYTE:
-			preambula_count = (data == 0x55)? 2: 0;
+		case COMMAND_SECOND_BYTE:
+			command_status = (data == 7)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
+			command = COMMAND_START;
 			break;
-		case PREAMBULA_THIRD_BYTE:
-			preambula_count = (data == 0xaa)? 3: 0;
-			break;
-		case PREAMBULA_FORTH_BYTE:
-			preambula_count = (data == 0x55)? 4: 0;
-			break;
-		case PREAMBULA_FIFTH_DUMMY_BYTE:
-			preambula_count = 5;
-			break;
-		case PREAMBULA_SIXTH_DUMMY_BYTE:
-			preambula_status = PREAMBULA_RECEIVED;
+		case COMMAND_SWITCH:
+			command_status = (data == 0)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
+			command = COMMAND_STOP;
 			break;
 		}
 	}
-	return preambula_status;
+	return command_status;
 }
+
+
+
 /* USER CODE END 0 */
 
 /**
@@ -128,20 +128,50 @@ int main(void)
   /* USER CODE BEGIN 2 */
   cur_i2c = hi2c1;
   adc_rdy = 0;
-  OB1203_Setup();
   uint32_t ppg;
+  int setup = SETUP_DONE;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	if(adc_rdy)
+	if(Command_Check() == COMMAND_RECEIVED)
 	{
-		memset(&ppg, 0, sizeof(ppg));
-		heartrate11_read_fifo(0, &ppg);
-		ob1203_send_results(ppg);
-		adc_rdy = 0;
+		SM_Case = ST_IDLE;
+	}
+	switch(SM_Case)
+	{
+		case ST_IDLE:
+			if (command == COMMAND_START)
+			{
+				SM_Case = ST_START;
+			}
+			if (command == COMMAND_STOP)
+			{
+				SM_Case = ST_STOP;
+			}
+			break;
+		case ST_START:
+			if (setup == SETUP_NOTDONE)
+			{
+				ob1203_send_preambula();
+				OB1203_Setup();
+				setup = SETUP_DONE;
+			}
+			if(adc_rdy)
+			{
+				memset(&ppg, 0, sizeof(ppg));
+				heartrate11_read_fifo(0, &ppg);
+				ob1203_send_results(ppg);
+				adc_rdy = 0;
+			}
+			break;
+		case ST_STOP:
+			OB1203_RST();
+			setup = SETUP_NOTDONE;
+			break;
+
 	}
     /* USER CODE END WHILE */
 
@@ -329,6 +359,12 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void OB1203_RST(void)
+{
+	heartrate11_t heartrate11;
+	heartrate11_reset_device(&heartrate11);
+}
+
 void OB1203_Setup(void)
 {
 	heartrate11_t heartrate11;

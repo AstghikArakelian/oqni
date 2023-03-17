@@ -57,24 +57,34 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-
+#define ST_IDLE              (uint8_t)0x00
+#define ST_START             (uint8_t)0x01
+#define ST_STOP		         (uint8_t)0x02
 /* USER CODE BEGIN Private defines */
 typedef enum
 {
-  PREAMBULA_RECEIVED = 0U,
-  PREAMBULA_NOTRECEIVED
+  COMMAND_RECEIVED = 0U,
+  COMMAND_NOTRECEIVED
 } Preambula_StatusTypeDef;
 
 typedef enum
 {
-  PREAMBULA_FIRST_BYTE = 0U,
-  PREAMBULA_SECOND_BYTE,
-  PREAMBULA_THIRD_BYTE,
-  PREAMBULA_FORTH_BYTE,
-  PREAMBULA_FIFTH_DUMMY_BYTE,
-  PREAMBULA_SIXTH_DUMMY_BYTE
-} Preambula_ByteCheckTypeDef;
+  COMMAND_FIRST_BYTE = 0U,
+  COMMAND_SECOND_BYTE,
+  COMMAND_SWITCH
+} Command_ByteCheckTypeDef;
 
+typedef enum
+{
+  COMMAND_START = 0U,
+  COMMAND_STOP
+} Command_StatusTypeDef;
+
+typedef enum
+{
+  SETUP_DONE = 0U,
+  SETUP_NOTDONE
+} Setup_StatusTypeDef;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
