@@ -129,13 +129,22 @@ int main(void)
   cur_i2c = hi2c1;
   adc_rdy = 0;
   uint32_t ppg;
-  int setup = SETUP_DONE;
+  int setup = SETUP_NOTDONE;
+  command = COMMAND_START;
+//  OB1203_Setup();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+//	  if(adc_rdy)
+//	  {
+//		  memset(&ppg, 0, sizeof(ppg));
+//		  heartrate11_read_fifo(0, &ppg);
+//		  ob1203_send_results(ppg);
+//		  adc_rdy = 0;
+//	  }
 	if(Command_Check() == COMMAND_RECEIVED)
 	{
 		SM_Case = ST_IDLE;

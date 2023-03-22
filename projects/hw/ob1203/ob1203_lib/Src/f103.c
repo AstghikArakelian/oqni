@@ -43,15 +43,12 @@ void ob1203_Delay_ms(uint32_t ms)
 
 void ob1203_send_results(uint32_t ppg)
 {
-	char send_buf[128];
-	char buf_length;
-	char channel_num;
-	sprintf(send_buf, "%ld\r\n", ppg);
-	buf_length = strlen(send_buf);
+	unsigned char* send_buf;
+	unsigned char channel_num;
+	send_buf = &ppg;
 	channel_num = 1;
-	CDC_Transmit_FS((unsigned char*) send_buf, strlen(send_buf));
-	CDC_Transmit_FS((unsigned char*) &buf_length, sizeof(buf_length));
-	CDC_Transmit_FS((unsigned char*) &channel_num, sizeof(channel_num));
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+	CDC_Transmit_FS((unsigned char*) send_buf, 4);
 }
 
 void ob1203_send_noresult()
@@ -63,11 +60,11 @@ void ob1203_send_noresult()
 
 void ob1203_send_preambula()
 {
-	char preambula[3];
-	preambula[0] = 0xaa;
+	char preambula[4];
+	preambula[0] = 0xAA;
 	preambula[1] = 0x55;
-	preambula[2] = 0xaa;
+	preambula[2] = 0xAA;
 	preambula[3] = 0x55;
-	CDC_Transmit_FS((unsigned char*) &preambula, sizeof(preambula));
+	CDC_Transmit_FS((unsigned char*) preambula, 4);
 }
 
