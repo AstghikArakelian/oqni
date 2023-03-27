@@ -57,7 +57,6 @@ HAL_StatusTypeDef ob1203_I2C_Write(uint8_t * data, uint8_t count);
 HAL_StatusTypeDef ob1203_I2C_Read(uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count);
 void ob1203_Delay_ms(uint32_t ms);
 void ob1203_send_results(uint32_t ppg);
-void ob1203_send_noresult(void);
 void ob1203_send_preambula(void);
 
 

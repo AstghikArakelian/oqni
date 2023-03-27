@@ -47,15 +47,11 @@ void ob1203_send_results(uint32_t ppg)
 	unsigned char channel_num;
 	send_buf = &ppg;
 	channel_num = 1;
+	ob1203_send_preambula();
+	ob1203_Delay_ms(5);
 	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+	ob1203_Delay_ms(5);
 	CDC_Transmit_FS((unsigned char*) send_buf, 4);
-}
-
-void ob1203_send_noresult()
-{
-	char send_buf[128];
-	sprintf(send_buf, "No result\n");
-	CDC_Transmit_FS((unsigned char*) send_buf, strlen(send_buf));
 }
 
 void ob1203_send_preambula()
@@ -65,6 +61,6 @@ void ob1203_send_preambula()
 	preambula[1] = 0x55;
 	preambula[2] = 0xAA;
 	preambula[3] = 0x55;
-	CDC_Transmit_FS((unsigned char*) preambula, 4);
+	CDC_Transmit_FS((unsigned char*) &preambula, 4);
 }
 
