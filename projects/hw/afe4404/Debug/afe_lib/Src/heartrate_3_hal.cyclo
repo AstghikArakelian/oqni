@@ -1,0 +1,4 @@
+heartrate_3_hal.c:136:6:hr3_hal_init	1
+heartrate_3_hal.c:229:6:hr3_hal_write	3
+heartrate_3_hal.c:301:6:hr3_hal_read	1
+heartrate_3_hal.c:399:6:hr3_hal_delay	1

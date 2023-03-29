@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/sando/esp-idf-v5.0.1/components/esp_local_ctrl
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_local_ctrl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/i2c-simple")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/app-template")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

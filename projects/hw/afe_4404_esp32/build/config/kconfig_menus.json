@@ -4024,22 +4024,22 @@
             {
                 "children": [],
                 "depends_on": null,
-                "help": "GPIO number for I2C Master clock line.",
-                "id": "I2C_MASTER_SCL",
-                "name": "I2C_MASTER_SCL",
+                "help": "SSID (network name) for the example to connect to.",
+                "id": "ESP_WIFI_SSID",
+                "name": "ESP_WIFI_SSID",
                 "range": null,
-                "title": "SCL GPIO Num",
-                "type": "int"
+                "title": "WiFi SSID",
+                "type": "string"
             },
             {
                 "children": [],
                 "depends_on": null,
-                "help": "GPIO number for I2C Master data line.",
-                "id": "I2C_MASTER_SDA",
-                "name": "I2C_MASTER_SDA",
+                "help": "WiFi password (WPA or WPA2) for the example to use.",
+                "id": "ESP_WIFI_PASSWORD",
+                "name": "ESP_WIFI_PASSWORD",
                 "range": null,
-                "title": "SDA GPIO Num",
-                "type": "int"
+                "title": "WiFi Password",
+                "type": "string"
             }
         ],
         "depends_on": null,

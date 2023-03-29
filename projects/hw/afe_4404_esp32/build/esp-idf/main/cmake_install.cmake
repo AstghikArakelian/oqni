@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/sando/Workspace/esp_workspace/afe_4404/main
+# Install script for directory: C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/i2c-simple")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/app-template")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

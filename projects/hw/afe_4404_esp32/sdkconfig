@@ -309,8 +309,8 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Example Configuration
 #
-CONFIG_I2C_MASTER_SCL=19
-CONFIG_I2C_MASTER_SDA=18
+CONFIG_ESP_WIFI_SSID="myssid"
+CONFIG_ESP_WIFI_PASSWORD="mypassword"
 # end of Example Configuration
 
 #

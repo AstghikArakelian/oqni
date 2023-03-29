@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sando/esp-idf-v5.0.1/components/soc
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.0.1/components/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
+  include("C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
 endif()
 

@@ -1,10 +1,9 @@
-
 #include <stdio.h>
-#include "esp_log.h"
+#include <stdbool.h>
+#include <unistd.h>
 #include "driver/i2c.h"
 #include "esp_wroom.h"
 #include "heartrate_3.h"
-#include "freertos/FreeRTOS.h"
 #include "driver/gpio.h"
 
 typedef enum
@@ -86,33 +85,35 @@ static void gpio_init(){
 	    gpio_config_t io_conf = {};
 	    io_conf.intr_type = GPIO_INTR_DISABLE;
 	    io_conf.mode = GPIO_MODE_OUTPUT;
-	    io_conf.pin_bit_mask = afe4404_RST_PIN;
+	    io_conf.pin_bit_mask = 1ULL<<afe4404_RST_PIN;
 	    io_conf.pull_down_en = 0;
 	    io_conf.pull_up_en = 0;
 	    gpio_config(&io_conf);
 
 	    io_conf.intr_type = GPIO_INTR_POSEDGE;
-	    io_conf.pin_bit_mask = afe4404_GP1INT_PIN;
+	    io_conf.pin_bit_mask = 1ULL<<afe4404_GP1INT_PIN;
 	    io_conf.mode = GPIO_MODE_INPUT;
 	    io_conf.pull_up_en = 0;
 	    gpio_config(&io_conf);
 
 
 	    io_conf.intr_type = GPIO_INTR_POSEDGE;
-	    io_conf.pin_bit_mask = afe4404_GP2INT_PIN;
+	    io_conf.pin_bit_mask = 1ULL<<afe4404_GP2INT_PIN;
 	    io_conf.mode = GPIO_MODE_INPUT;
 	    io_conf.pull_up_en = 0;
 	    gpio_config(&io_conf);
-
+	    gpio_evt_queue = xQueueCreate( 10, sizeof( unsigned long ) );
 		gpio_install_isr_service(0);
 	    gpio_isr_handler_add(afe4404_GP1INT_PIN, gpio1_isr_handler, (void*) afe4404_GP1INT_PIN);
 	    gpio_isr_handler_add(afe4404_GP2INT_PIN, gpio2_isr_handler, (void*) afe4404_GP2INT_PIN);
 
 }
 
+
+
 static esp_err_t i2c1_master_init(void)
 {
-    int i2c_master_port = I2C_NUM_0;
+    int i2c_master_port = 0;
 
     i2c_config_t conf = {
         .mode = I2C_MODE_MASTER,
@@ -131,12 +132,12 @@ static esp_err_t i2c1_master_init(void)
 
 static esp_err_t i2c2_master_init(void)
 {
-    int i2c_master_port = I2C_NUM_1;
+    int i2c_master_port = 1;
 
     i2c_config_t conf = {
         .mode = I2C_MODE_MASTER,
-        .sda_io_num = GPIO_NUM_18,
-        .scl_io_num = GPIO_NUM_19,
+        .sda_io_num = 1ULL<<GPIO_NUM_18,
+        .scl_io_num = 1ULL<<GPIO_NUM_19,
         .sda_pullup_en = GPIO_PULLUP_ENABLE,
         .scl_pullup_en = GPIO_PULLUP_ENABLE,
         .master.clk_speed = 400000,
@@ -188,37 +189,42 @@ static void AFE2_Setup(void)
 	hr3_init(afe4404_address, &dynamic_modes);
 }
 
+
 void app_main(void)
 {
 	FIFO_buf = Buffer_Init(128);
-
+	printf("1\n");
 	gpio_init();
+	printf("2\n");
+	//ESP_LOGI("gpio init done");
 	i2c1_master_init();
-	i2c2_master_init();
-
+	printf("1\n");
+	//i2c2_master_init();
+	printf("3\n");
 	AFE12_RST();
 	AFE1_Setup();
 	AFE2_Setup();
 	adc1_rdy = 0;
 	adc2_rdy = 0;
+	printf("4\n");
 	afe4404_Delay_ms(200);
+	printf("5\n");
 	initStatHRM();
-
-	while (1)
-	 {
-	 if(adc1_rdy)
-	 {
-		 cur_i2c = I2C_NUM_0;
-		 statHRMAlgo(hr3_get_led1_amb1_val());
-		 afe4404_send_results(1, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
-		 adc1_rdy = 0;
-	 }
-	 if(adc2_rdy)
-	 {
-		 cur_i2c = I2C_NUM_1;
-		 statHRMAlgo(hr3_get_led1_amb1_val());
-		 afe4404_send_results(2, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
-		 adc2_rdy = 0;
-	 }
-	 }
+	printf("6\n");
+	while (true) {
+		 if(adc1_rdy)
+		 {
+			 cur_i2c = I2C_NUM_0;
+			 statHRMAlgo(hr3_get_led1_amb1_val());
+			 afe4404_send_results(1, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+			 adc1_rdy = 0;
+		 }
+		 if(adc2_rdy)
+		 {
+			 cur_i2c = I2C_NUM_1;
+			 statHRMAlgo(hr3_get_led1_amb1_val());
+			 afe4404_send_results(2, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+			 adc2_rdy = 0;
+		 }
+    }
 }
