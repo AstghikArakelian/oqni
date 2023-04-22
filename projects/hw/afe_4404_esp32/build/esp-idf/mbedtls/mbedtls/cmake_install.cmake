@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/sando/esp-idf-v5.0.1/components/mbedtls/mbedtls
+# Install script for directory: C:/Espressif/frameworks/esp-idf-v5.0.1/components/mbedtls/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/i2c-simple")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/app-template")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/sando/Workspace/esp_workspace/afe_4404/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("C:/Users/sando/Workspace/esp_workspace/afe_4404/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("C:/Users/sando/Workspace/esp_workspace/afe_4404/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

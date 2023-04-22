@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/CMakeFiles/bootloader
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/CMakeFiles/bootloader.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/CMakeFiles/bootloader-complete.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/sando/Workspace/esp_workspace/afe_4404/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/CMakeFiles/bootloader
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/CMakeFiles/bootloader.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/CMakeFiles/bootloader-complete.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
