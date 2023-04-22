@@ -46,7 +46,9 @@ I2C_HandleTypeDef hi2c2;
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
+uint8_t SM_Case = ST_IDLE;
 BUF_HandleTypeDef FIFO_buf = 0;
+uint8_t command = 2;
 uint8_t adc1_rdy = 0;
 uint8_t adc2_rdy = 0;
 I2C_HandleTypeDef cur_i2c;
@@ -61,44 +63,44 @@ static void MX_TIM2_Init(void);
 static void MX_I2C2_Init(void);
 /* USER CODE BEGIN PFP */
 static void AFE12_RST(void);
-static void AFE1_Setup(void);
-static void AFE2_Setup(void);
+static void AFE_Setup(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-int Preambula_Check()
+int Command_Check()
 {
-	int preambula_count = PREAMBULA_FIRST_BYTE;
-	int preambula_status = PREAMBULA_NOTRECEIVED;
-	while (! Buffer_IsEmpty(FIFO_buf) && preambula_status == PREAMBULA_NOTRECEIVED)
+	int command_count = COMMAND_FIRST_BYTE;
+	int command_status = COMMAND_NOTRECEIVED;
+	while (! Buffer_IsEmpty(FIFO_buf) && command_status == COMMAND_NOTRECEIVED)
 	{
 		uint8_t data = Buffer_Read(FIFO_buf);
-		switch (preambula_count)
+		switch (command_count)
 		{
-		case PREAMBULA_FIRST_BYTE:
-			preambula_count = (data == 0xaa)? 1: 0;
+		case COMMAND_FIRST_BYTE:
+			if (data == 0)
+			{
+				command_count = 1;
+			}
+			else if(data == 255)
+			{
+				command_count = 2;
+			}
 			break;
-		case PREAMBULA_SECOND_BYTE:
-			preambula_count = (data == 0x55)? 2: 0;
+		case COMMAND_SECOND_BYTE:
+			command_status = (data == 7)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
+			command = COMMAND_START;
 			break;
-		case PREAMBULA_THIRD_BYTE:
-			preambula_count = (data == 0xaa)? 3: 0;
-			break;
-		case PREAMBULA_FORTH_BYTE:
-			preambula_count = (data == 0x55)? 4: 0;
-			break;
-		case PREAMBULA_FIFTH_DUMMY_BYTE:
-			preambula_count = 5;
-			break;
-		case PREAMBULA_SIXTH_DUMMY_BYTE:
-			preambula_status = PREAMBULA_RECEIVED;
+		case COMMAND_SWITCH:
+			command_status = (data == 0)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
+			command = COMMAND_STOP;
 			break;
 		}
 	}
-	return preambula_status;
+	return command_status;
 }
+
 /* USER CODE END 0 */
 
 /**
@@ -135,34 +137,63 @@ int main(void)
   MX_USB_DEVICE_Init();
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
-  AFE12_RST();
-  AFE1_Setup();
-  AFE2_Setup();
   adc1_rdy = 0;
   adc2_rdy = 0;
-  afe4404_Delay_ms(200);
-  initStatHRM();
-
+  int setup = SETUP_NOTDONE;
+  command = COMMAND_NOTR;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if(adc1_rdy)
-	  {
-		  cur_i2c = hi2c1;
-		  statHRMAlgo(hr3_get_led1_amb1_val());
-		  afe4404_send_results(1, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
-		  adc1_rdy = 0;
-	  }
-	  if(adc2_rdy)
-	  {
-		  cur_i2c = hi2c2;
-		  statHRMAlgo(hr3_get_led1_amb1_val());
-		  afe4404_send_results(2, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
-		  adc2_rdy = 0;
-	  }
+		if(Command_Check() == COMMAND_RECEIVED)
+		{
+			SM_Case = ST_IDLE;
+		}
+		switch(SM_Case)
+		{
+			case ST_IDLE:
+				if (command == COMMAND_START)
+				{
+					SM_Case = ST_START;
+				}
+				if (command == COMMAND_STOP)
+				{
+					SM_Case = ST_STOP;
+				}
+				break;
+			case ST_START:
+				if (setup == SETUP_NOTDONE)
+				{
+					initStatHRM();
+					AFE12_RST();
+					cur_i2c = hi2c1;
+					AFE_Setup();
+					cur_i2c = hi2c2;
+					AFE_Setup();
+					setup = SETUP_DONE;
+				}
+				if(adc1_rdy)
+				{
+					cur_i2c = hi2c1;
+					statHRMAlgo(hr3_get_led1_amb1_val());
+					afe4404_send_results(1, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+					adc1_rdy = 0;
+				}
+				if(adc2_rdy)
+				{
+					cur_i2c = hi2c2;
+					statHRMAlgo(hr3_get_led1_amb1_val());
+					afe4404_send_results(2, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+					adc2_rdy = 0;
+				}
+				break;
+			case ST_STOP:
+				AFE12_RST();
+				setup = SETUP_NOTDONE;
+				break;
+		}
 
     /* USER CODE END WHILE */
 
@@ -267,7 +298,7 @@ static void MX_I2C2_Init(void)
 
   /* USER CODE END I2C2_Init 1 */
   hi2c2.Instance = I2C2;
-  hi2c2.Init.ClockSpeed = 100000;
+  hi2c2.Init.ClockSpeed = 400000;
   hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
   hi2c2.Init.OwnAddress1 = 0;
   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
@@ -352,7 +383,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);
 
   /*Configure GPIO pin : PC13 */
   GPIO_InitStruct.Pin = GPIO_PIN_13;
@@ -371,13 +402,13 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : PB3 PB5 */
   GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_5;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PB4 */
   GPIO_InitStruct.Pin = GPIO_PIN_4;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
@@ -398,7 +429,7 @@ static void AFE12_RST(void)
 	afe4404_RstSet();
 }
 
-static void AFE1_Setup(void)
+static void AFE_Setup(void)
 {
 	dynamic_modes_t dynamic_modes;
 
@@ -411,24 +442,6 @@ static void AFE1_Setup(void)
 	dynamic_modes.afe_rx_mode = afe_rx_normal;
 	dynamic_modes.afe_mode = afe_normal;
 
-	cur_i2c = hi2c1;
-	hr3_init(afe4404_address, &dynamic_modes);
-}
-
-static void AFE2_Setup(void)
-{
-	dynamic_modes_t dynamic_modes;
-
-	dynamic_modes.transmit = trans_dis;
-	dynamic_modes.curr_range = led_double;
-	dynamic_modes.adc_power = adc_on;
-	dynamic_modes.clk_mode = osc_mode;
-	dynamic_modes.tia_power = tia_off;
-	dynamic_modes.rest_of_adc = rest_of_adc_off;
-	dynamic_modes.afe_rx_mode = afe_rx_normal;
-	dynamic_modes.afe_mode = afe_normal;
-
-	cur_i2c = hi2c2;
 	hr3_init(afe4404_address, &dynamic_modes);
 }
 

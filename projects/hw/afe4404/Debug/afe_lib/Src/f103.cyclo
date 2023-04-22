@@ -1,0 +1,7 @@
+f103.c:20:6:afe4404_RstSet	1
+f103.c:26:6:afe4404_RstReset	1
+f103.c:31:6:afe4404_I2C_Write	1
+f103.c:36:6:afe4404_I2C_Read	1
+f103.c:41:6:afe4404_Delay_ms	1
+f103.c:46:6:afe4404_send_results	1
+f103.c:53:6:afe4404_send_noresult	1

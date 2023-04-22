@@ -53,11 +53,12 @@
 
 void ob1203_RstSet(void);
 void ob1203_RstReset(void);
-HAL_StatusTypeDef ob1203_I2C_Write(uint8_t * data, uint8_t count);
-HAL_StatusTypeDef ob1203_I2C_Read(uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count);
+HAL_StatusTypeDef ob1203_I2C_Write(uint8_t address, uint8_t * data, uint8_t count);
+HAL_StatusTypeDef ob1203_I2C_Read(uint8_t address, uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count);
 void ob1203_Delay_ms(uint32_t ms);
-void ob1203_send_results(uint32_t ppg);
+void ob1203_send_results(uint32_t ppg, unsigned char channel_num);
 void ob1203_send_preambula(void);
+void ob1203_send_info(uint8_t rate);
 
 
 #endif /* INC_F103_H_ */

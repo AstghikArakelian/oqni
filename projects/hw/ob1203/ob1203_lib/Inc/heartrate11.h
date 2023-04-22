@@ -40,6 +40,7 @@ extern "C"{
 #include <stdio.h>
 #include "f103.h"
 
+extern uint8_t rate;
 
 typedef uint8_t err_t; /*!< General error type. */
 /*!

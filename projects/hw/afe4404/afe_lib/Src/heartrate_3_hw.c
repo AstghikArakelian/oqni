@@ -52,10 +52,10 @@ uint8_t hr3_init( uint8_t address, dynamic_modes_t* dyn_modes )
     hr3_hal_init( address );
     hr3_set_settings( sw_reset_en,diag_mode_dis,susp_count_dis,reg_read_dis );
     hr3_set_led2_start_end( 0, 399 );
-    hr3_set_led2_sample_start_end( 100, 399 ); //rec in datasheet 100, previous ex value 80
+    hr3_set_led2_sample_start_end( 80, 399 );
     hr3_set_adc_reset0_start_end( 401, 407 );
     hr3_set_led2_convert_start_end( 408, 1467 );
-    hr3_set_led3_start_stop( 500, 799 ); //rec in datasheet 501, previous ex value 400
+    hr3_set_led3_start_stop( 400, 799 );
     hr3_set_led3_sample_start_end( 480, 799 );
     hr3_set_adc_reset1_start_end( 1469, 1475 );
     hr3_set_led3_convert_start_end( 1476, 2535 );

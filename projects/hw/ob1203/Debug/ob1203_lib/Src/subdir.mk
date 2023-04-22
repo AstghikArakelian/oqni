@@ -5,14 +5,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../ob1203_lib/Src/BMX055.c \
 ../ob1203_lib/Src/f103.c \
 ../ob1203_lib/Src/heartrate11.c 
 
 OBJS += \
+./ob1203_lib/Src/BMX055.o \
 ./ob1203_lib/Src/f103.o \
 ./ob1203_lib/Src/heartrate11.o 
 
 C_DEPS += \
+./ob1203_lib/Src/BMX055.d \
 ./ob1203_lib/Src/f103.d \
 ./ob1203_lib/Src/heartrate11.d 
 
@@ -24,7 +27,7 @@ ob1203_lib/Src/%.o ob1203_lib/Src/%.su: ../ob1203_lib/Src/%.c ob1203_lib/Src/sub
 clean: clean-ob1203_lib-2f-Src
 
 clean-ob1203_lib-2f-Src:
-	-$(RM) ./ob1203_lib/Src/f103.d ./ob1203_lib/Src/f103.o ./ob1203_lib/Src/f103.su ./ob1203_lib/Src/heartrate11.d ./ob1203_lib/Src/heartrate11.o ./ob1203_lib/Src/heartrate11.su
+	-$(RM) ./ob1203_lib/Src/BMX055.d ./ob1203_lib/Src/BMX055.o ./ob1203_lib/Src/BMX055.su ./ob1203_lib/Src/f103.d ./ob1203_lib/Src/f103.o ./ob1203_lib/Src/f103.su ./ob1203_lib/Src/heartrate11.d ./ob1203_lib/Src/heartrate11.o ./ob1203_lib/Src/heartrate11.su
 
 .PHONY: clean-ob1203_lib-2f-Src
 

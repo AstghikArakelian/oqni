@@ -57,10 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+
+/* USER CODE BEGIN Private defines */
 #define ST_IDLE              (uint8_t)0x00
 #define ST_START             (uint8_t)0x01
 #define ST_STOP		         (uint8_t)0x02
-/* USER CODE BEGIN Private defines */
+
 typedef enum
 {
   COMMAND_RECEIVED = 0U,
@@ -77,7 +79,8 @@ typedef enum
 typedef enum
 {
   COMMAND_START = 0U,
-  COMMAND_STOP
+  COMMAND_STOP,
+  COMMAND_NOTR
 } Command_StatusTypeDef;
 
 typedef enum

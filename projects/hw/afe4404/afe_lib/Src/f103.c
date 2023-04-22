@@ -15,7 +15,6 @@
 /* Private variables ---------------------------------------------------------*/
 extern uint8_t transmit_cplt;
 extern I2C_HandleTypeDef cur_i2c;
-
 /* Private user code ---------------------------------------------------------*/
 void afe4404_RstSet(void)
 {
@@ -45,14 +44,35 @@ void afe4404_Delay_ms(uint32_t ms)
 
 void afe4404_send_results(uint8_t num, uint16_t hr, uint32_t led1, uint32_t led2, uint32_t led3)
 {
-	char send_buf[128];
-	sprintf(send_buf, "%d, %d, %ld, %ld, %ld\r\n", num, hr, led1, led2, led3);
-	CDC_Transmit_FS((unsigned char*) send_buf, strlen(send_buf));
+	unsigned char channel_num = 3;
+	afe4404_send_preambula();
+	afe4404_Delay_ms(5);
+
+	CDC_Transmit_FS((unsigned char*) &num, 1);
+	afe4404_Delay_ms(5);
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+
+	afe4404_Delay_ms(5);
+	CDC_Transmit_FS((unsigned char*) &led1, 4);
+	afe4404_Delay_ms(5);
+
+	CDC_Transmit_FS((unsigned char*) &led2, 4);
+	afe4404_Delay_ms(5);
+
+	CDC_Transmit_FS((unsigned char*) &led3, 4);
+
+	//	char send[128];
+	//	sprintf(send, "%d, %ld\r\n", num, led1);
+	//	CDC_Transmit_FS((unsigned char*) send, strlen(send));
+	//
 }
 
-void afe4404_send_noresult()
+void afe4404_send_preambula()
 {
-	char send_buf[128];
-	sprintf(send_buf, "No result\n");
-	CDC_Transmit_FS((unsigned char*) send_buf, strlen(send_buf));
+	char preambula[4];
+	preambula[0] = 0xAA;
+	preambula[1] = 0x55;
+	preambula[2] = 0xAA;
+	preambula[3] = 0x55;
+	CDC_Transmit_FS((unsigned char*) &preambula, 4);
 }

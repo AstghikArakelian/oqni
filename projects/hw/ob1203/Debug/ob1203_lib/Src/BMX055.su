@@ -1,0 +1,16 @@
+../ob1203_lib/Src/BMX055.c:83:6:BMX055_init_globals	16	static
+../ob1203_lib/Src/BMX055.c:243:5:BMX055_setup	16	static
+../ob1203_lib/Src/BMX055.c:279:6:loop	8	static
+../ob1203_lib/Src/BMX055.c:459:6:getGres	4	static
+../ob1203_lib/Src/BMX055.c:482:6:getAres	4	static
+../ob1203_lib/Src/BMX055.c:504:6:readAccelData	24	static
+../ob1203_lib/Src/BMX055.c:515:6:readGyroData	24	static
+../ob1203_lib/Src/BMX055.c:524:6:readMagData	40	static
+../ob1203_lib/Src/BMX055.c:555:9:readACCTempData	16	static
+../ob1203_lib/Src/BMX055.c:561:6:trimBMX055	16	static
+../ob1203_lib/Src/BMX055.c:583:6:initBMX055	8	static
+../ob1203_lib/Src/BMX055.c:668:6:fastcompaccelBMX055	32	static
+../ob1203_lib/Src/BMX055.c:704:6:magcalBMX055	72	static
+../ob1203_lib/Src/BMX055.c:758:6:writeByte	24	static
+../ob1203_lib/Src/BMX055.c:773:9:readByte	40	static
+../ob1203_lib/Src/BMX055.c:800:6:readBytes	48	static

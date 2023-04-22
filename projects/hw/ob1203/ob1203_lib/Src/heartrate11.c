@@ -84,17 +84,17 @@ err_t heartrate11_default_cfg(heartrate11_t *ctx)
 #if defined(HAL_STM32F103)
     ob1203_Delay_ms(100);
 #endif
-    error_flag |= heartrate11_write_register(ctx, HEARTRATE11_REG_MAIN_CTRL_1, HEARTRATE11_PS_SAI_OFF |
-                                                                                 HEARTRATE11_HR_MODE | 
-                                                                                 HEARTRATE11_PPG_PS_ON);
-    error_flag |= heartrate11_write_register(ctx, HEARTRATE11_REG_INT_CFG_1, HEARTRATE11_PPG_INT_ON);
-    error_flag |= heartrate11_set_led_current(ctx, HEARTRATE11_IR_LED, HEARTRATE11_IR_LED_DEFAULT_CURRENT);
-    error_flag |= heartrate11_write_register(ctx, HEARTRATE11_REG_PPG_PS_GAIN, HEARTRATE11_PPG_PS_GAIN_1 |
-                                                                                 HEARTRATE11_PPG_PS_GAIN_RESERVED);
-    error_flag |= heartrate11_write_register(ctx, HEARTRATE11_REG_PPG_AVG, HEARTRATE11_PPG_AVG_32 |
-                                                                             HEARTRATE11_PPG_AVG_RESERVED);
-    error_flag |= heartrate11_write_register(ctx, HEARTRATE11_REG_PPG_PWIDTH_PERIOD, HEARTRATE11_PPG_PWIDTH_247US |
-                                                                                       HEARTRATE11_PPG_RATE_1MS);
+    error_flag |= heartrate11_write_register ( ctx, HEARTRATE11_REG_MAIN_CTRL_1, HEARTRATE11_PS_SAI_OFF |
+                                                                                     HEARTRATE11_HR_MODE |
+                                                                                     HEARTRATE11_PPG_PS_ON );
+	error_flag |= heartrate11_write_register ( ctx, HEARTRATE11_REG_INT_CFG_1, HEARTRATE11_PPG_INT_ON );
+	error_flag |= heartrate11_set_led_current ( ctx, HEARTRATE11_IR_LED, HEARTRATE11_IR_LED_DEFAULT_CURRENT );
+	error_flag |= heartrate11_write_register ( ctx, HEARTRATE11_REG_PPG_PS_GAIN, HEARTRATE11_PPG_PS_GAIN_1 |
+																				 HEARTRATE11_PPG_PS_GAIN_RESERVED );
+	error_flag |= heartrate11_write_register ( ctx, HEARTRATE11_REG_PPG_AVG, HEARTRATE11_PPG_AVG_32 |
+																			 HEARTRATE11_PPG_AVG_RESERVED );
+	error_flag |= heartrate11_write_register ( ctx, HEARTRATE11_REG_PPG_PWIDTH_PERIOD, HEARTRATE11_PPG_PWIDTH_247US |
+																					   rate);
     return error_flag;
 }
 
@@ -110,7 +110,7 @@ err_t heartrate11_generic_write(heartrate11_t *ctx, uint8_t reg, uint8_t *data_i
     return i2c_master_write(&ctx->i2c, data_buf, len + 1);
 #endif
 #if defined(HAL_STM32F103)
-    if(HEARTRATE11_OK == ob1203_I2C_Write(data_buf, len + 1))
+    if(HEARTRATE11_OK == ob1203_I2C_Write(HEARTRATE11_DEVICE_ADDRESS, data_buf, len + 1))
     	return HEARTRATE11_OK;
 #endif
     return HEARTRATE11_ERROR;
@@ -122,7 +122,7 @@ err_t heartrate11_generic_read(heartrate11_t *ctx, uint8_t reg, uint8_t *data_ou
     return i2c_master_write_then_read(&ctx->i2c, &reg, 1, data_out, len);
 #endif
 #if defined(HAL_STM32F103)
-    if(HEARTRATE11_OK == ob1203_I2C_Read(&reg, data_out, 1, len + 1))
+    if(HEARTRATE11_OK == ob1203_I2C_Read(HEARTRATE11_DEVICE_ADDRESS, &reg, data_out, 1, len + 1))
     	return HEARTRATE11_OK;
 #endif
     return HEARTRATE11_ERROR;

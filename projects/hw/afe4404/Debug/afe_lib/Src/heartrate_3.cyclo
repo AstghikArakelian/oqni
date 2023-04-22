@@ -1,0 +1,9 @@
+heartrate_3.c:60:15:hr3_get_values	1
+heartrate_3.c:71:9:hr3_get_heartrate	2
+heartrate_3.c:84:6:initStatHRM	3
+heartrate_3.c:112:6:statHRMAlgo	17
+heartrate_3.c:205:6:updateWindow	2
+heartrate_3.c:218:15:chooseRate	7
+heartrate_3.c:256:6:updateHeartRate	4
+heartrate_3.c:271:15:findMax	3
+heartrate_3.c:284:15:findMin	3

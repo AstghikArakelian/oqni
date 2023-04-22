@@ -41,14 +41,17 @@
 
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c1;
+I2C_HandleTypeDef hi2c2;
 
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
 uint8_t SM_Case = ST_IDLE;
 BUF_HandleTypeDef FIFO_buf = 0;
-uint8_t command = 0;
-uint8_t adc_rdy = 0;
+uint8_t command = 2;
+uint8_t rate;
+uint8_t adc1_rdy = 0;
+uint8_t adc2_rdy = 0;
 I2C_HandleTypeDef cur_i2c;
 /* USER CODE END PV */
 
@@ -57,6 +60,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_TIM2_Init(void);
+static void MX_I2C2_Init(void);
 /* USER CODE BEGIN PFP */
 static void OB1203_Setup(void);
 static void OB1203_RST(void);
@@ -74,8 +78,14 @@ int Command_Check()
 		switch (command_count)
 		{
 		case COMMAND_FIRST_BYTE:
-			command_count = (data == 0)? 1: 0;
-			command_count = (data == 255)? 2: 0;
+			if (data == 0)
+			{
+				command_count = 1;
+			}
+			else if(data == 255)
+			{
+				command_count = 2;
+			}
 			break;
 		case COMMAND_SECOND_BYTE:
 			command_status = (data == 7)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
@@ -125,12 +135,14 @@ int main(void)
   MX_I2C1_Init();
   MX_TIM2_Init();
   MX_USB_DEVICE_Init();
+  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
-  cur_i2c = hi2c1;
-  adc_rdy = 0;
+  adc1_rdy = 0;
+  adc2_rdy = 0;
   uint32_t ppg;
+  uint16_t ps;
   int setup = SETUP_NOTDONE;
-  command = COMMAND_START;
+  command = COMMAND_NOTR;
 //  OB1203_Setup();
   /* USER CODE END 2 */
 
@@ -138,13 +150,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-//	  if(adc_rdy)
-//	  {
-//		  memset(&ppg, 0, sizeof(ppg));
-//		  heartrate11_read_fifo(0, &ppg);
-//		  ob1203_send_results(ppg);
-//		  adc_rdy = 0;
-//	  }
 	if(Command_Check() == COMMAND_RECEIVED)
 	{
 		SM_Case = ST_IDLE;
@@ -162,18 +167,32 @@ int main(void)
 			}
 			break;
 		case ST_START:
+
 			if (setup == SETUP_NOTDONE)
 			{
-				ob1203_send_preambula();
+				rate = HEARTRATE11_PPG_RATE_1MS;
+				cur_i2c = hi2c1;
+				OB1203_Setup();
+				cur_i2c = hi2c2;
 				OB1203_Setup();
 				setup = SETUP_DONE;
+				ob1203_send_info(rate);
 			}
-			if(adc_rdy)
+			if(adc1_rdy)
 			{
+				cur_i2c = hi2c1;
 				memset(&ppg, 0, sizeof(ppg));
 				heartrate11_read_fifo(0, &ppg);
-				ob1203_send_results(ppg);
-				adc_rdy = 0;
+				ob1203_send_results(ppg, 1);
+				adc1_rdy = 0;
+			}
+			if(adc2_rdy)
+			{
+				cur_i2c = hi2c2;
+				memset(&ppg, 0, sizeof(ppg));
+				heartrate11_read_fifo(0, &ppg);
+				ob1203_send_results(ppg, 2);
+				adc2_rdy = 0;
 			}
 			break;
 		case ST_STOP:
@@ -270,6 +289,40 @@ static void MX_I2C1_Init(void)
 }
 
 /**
+  * @brief I2C2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C2_Init(void)
+{
+
+  /* USER CODE BEGIN I2C2_Init 0 */
+
+  /* USER CODE END I2C2_Init 0 */
+
+  /* USER CODE BEGIN I2C2_Init 1 */
+
+  /* USER CODE END I2C2_Init 1 */
+  hi2c2.Instance = I2C2;
+  hi2c2.Init.ClockSpeed = 400000;
+  hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  hi2c2.Init.OwnAddress1 = 0;
+  hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c2.Init.OwnAddress2 = 0;
+  hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C2_Init 2 */
+
+  /* USER CODE END I2C2_Init 2 */
+
+}
+
+/**
   * @brief TIM2 Initialization Function
   * @param None
   * @retval None
@@ -342,12 +395,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PB10 PB11 */
-  GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_11;
-  GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
   /*Configure GPIO pin : PA10 */
   GPIO_InitStruct.Pin = GPIO_PIN_10;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -355,15 +402,18 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PB3 */
-  GPIO_InitStruct.Pin = GPIO_PIN_3;
+  /*Configure GPIO pins : PB3 PB5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_5;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI3_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI3_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI9_5_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
 
 }
 
@@ -377,7 +427,10 @@ void OB1203_RST(void)
 void OB1203_Setup(void)
 {
 	heartrate11_t heartrate11;
-	heartrate11_default_cfg(&heartrate11);
+	if(HEARTRATE11_OK == heartrate11_reset_device(0))
+	{
+		heartrate11_default_cfg(&heartrate11);
+	}
 }
 /* USER CODE END 4 */
 
