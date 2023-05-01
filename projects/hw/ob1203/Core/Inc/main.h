@@ -32,6 +32,8 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "heartrate11.h"
+#include "bmx055.h"
+//#include "BMX055.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -88,6 +90,26 @@ typedef enum
   SETUP_DONE = 0U,
   SETUP_NOTDONE
 } Setup_StatusTypeDef;
+
+typedef enum
+{
+  BMX055_OK = 0U,
+  BMX055_ERROR
+} BMX_StatusTypeDef;
+
+typedef enum
+{
+  I2C_1 = 0U,
+  I2C_2,
+  I2C_3
+} OB1203X_CheckTypeDef;
+
+typedef enum
+{
+  I2C1_INT = 1U,
+  I2C2_INT,
+  I2C3_INT
+} OB1203XINT_CheckTypeDef;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -1,10 +1,13 @@
 
-#ifndef BMX055_H_
-#define BMX055_H_
+#ifndef __BMX055__
+#define __BMX055__
 
 #include <stdint.h>
-#include "f103.h"
+#include <stdbool.h>
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
 
 /* BMX055_MS5637_t3 Basic Example Code
  by: Kris Winer
@@ -298,47 +301,51 @@ enum Mmode {
 //#define ADC_D1   0x40
 //#define ADC_D2   0x50
 
+
+
 // Specify sensor full scale
 //uint8_t OSR    = ADC_8192;         // set pressure amd temperature oversample rate
-uint8_t Gscale;// = GFS_125DPS;       // set gyro full scale
-uint8_t GODRBW;// = G_200Hz23Hz;      // set gyro ODR and bandwidth
-uint8_t Ascale;// = AFS_2G;           // set accel full scale
-uint8_t ACCBW;//  = 0x08 | ABW_16Hz;  // Choose bandwidth for accelerometer, need bit 3 = 1 to enable bandwidth choice in enum
-uint8_t Mmode;//  = Regular;          // Choose magnetometer operation mode
-uint8_t MODR;//   = MODR_10Hz;        // set magnetometer data rate
-float aRes, gRes, mRes;            // scale resolutions per LSB for the sensors
+extern uint8_t Gscale;// = GFS_125DPS;       // set gyro full scale
+extern uint8_t GODRBW;// = G_200Hz23Hz;      // set gyro ODR and bandwidth
+extern uint8_t Ascale;// = AFS_2G;           // set accel full scale
+extern uint8_t ACCBW;//  = 0x08 | ABW_16Hz;  // Choose bandwidth for accelerometer, need bit 3 = 1 to enable bandwidth choice in enum
+extern uint8_t Mmode;//  = Regular;          // Choose magnetometer operation mode
+extern uint8_t MODR;//   = MODR_10Hz;        // set magnetometer data rate
+extern float aRes, gRes, mRes;            // scale resolutions per LSB for the sensors
 
 // Parameters to hold BMX055 trim values
-signed char   dig_x1;
-signed char   dig_y1;
-signed char   dig_x2;
-signed char   dig_y2;
-uint16_t      dig_z1;
-int16_t       dig_z2;
-int16_t       dig_z3;
-int16_t       dig_z4;
-unsigned char dig_xy1;
-signed char   dig_xy2;
-uint16_t      dig_xyz1;
+extern signed char   dig_x1;
+extern signed char   dig_y1;
+extern signed char   dig_x2;
+extern signed char   dig_y2;
+extern uint16_t      dig_z1;
+extern int16_t       dig_z2;
+extern int16_t       dig_z3;
+extern int16_t       dig_z4;
+extern unsigned char dig_xy1;
+extern signed char   dig_xy2;
+extern uint16_t      dig_xyz1;
 
 // Pin definitions
 // The BMX055 has three sensors, and two interrupt pins per device!
-int intACC1;//   =  8;  // These are fixed on the BMX055 Mini Add-On for Teensy 3.1
-int intACC2;//   =  9;
-int intGYRO1;//  = 11;
-int intGYRO2;//  = 10;
-int intMAG1;//   = 12;
-int intDRDYM;//  = 15;
-int myLed;//     = 13;  // LED on the Teensy 3.1
+extern int intACC1;//   =  8;  // These are fixed on the BMX055 Mini Add-On for Teensy 3.1
+extern int intACC2;//   =  9;
+extern int intGYRO1;//  = 11;
+extern int intGYRO2;//  = 10;
+extern int intMAG1;//   = 12;
+extern int intDRDYM;//  = 15;
+extern int myLed;//     = 13;  // LED on the Teensy 3.1
 
 // BMX055 variables
-int16_t accelCount[3];  // Stores the 16-bit signed accelerometer sensor output
-int16_t gyroCount[3];   // Stores the 16-bit signed gyro sensor output
-int16_t magCount[3];    // Stores the 13/15-bit signed magnetometer sensor output
-float gyroBias[3], accelBias[3], magBias[3];  // Bias corrections for gyro, accelerometer, mag
-int16_t tempCount;            // temperature raw count output
-float   temperature;          // Stores the BMX055 internal chip temperature in degrees Celsius
-float SelfTest[6];            // holds results of gyro and accelerometer self test
+extern int16_t accelCount[3];  // Stores the 16-bit signed accelerometer sensor output
+extern int16_t gyroCount[3];   // Stores the 16-bit signed gyro sensor output
+extern int16_t magCount[3];    // Stores the 13/15-bit signed magnetometer sensor output
+extern float gyroBias[3], accelBias[3], magBias[3];  // Bias corrections for gyro, accelerometer, mag
+extern int16_t tempCount;            // temperature raw count output
+extern float   temperature;          // Stores the BMX055 internal chip temperature in degrees Celsius
+extern float SelfTest[6];            // holds results of gyro and accelerometer self test
+
+
 
 //
 //// global constants for 9 DoF fusion and AHRS (Attitude and Heading Reference System)
@@ -368,13 +375,8 @@ float SelfTest[6];            // holds results of gyro and accelerometer self te
 //float eInt[3] = {0.0f, 0.0f, 0.0f};       // vector to hold integral error for Mahony method
 
 void BMX055_init_globals();
+bool BMX055_setup();
 
-#if defined(Arduino)
-void BMX055_setup();
-#endif
-#if defined(HAL_STM32F103)
-int BMX055_setup();
-#endif
 
 void loop();
 
@@ -418,5 +420,8 @@ uint8_t readByte(uint8_t address, uint8_t subAddress);
 
 void readBytes(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t * dest);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif /*BMX055_H_*/

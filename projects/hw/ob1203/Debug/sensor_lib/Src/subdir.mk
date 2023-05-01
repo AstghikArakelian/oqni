@@ -5,23 +5,29 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c 
+../sensor_lib/Src/bmx055.c \
+../sensor_lib/Src/f103.c \
+../sensor_lib/Src/heartrate11.c 
 
 OBJS += \
-./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o 
+./sensor_lib/Src/bmx055.o \
+./sensor_lib/Src/f103.o \
+./sensor_lib/Src/heartrate11.o 
 
 C_DEPS += \
-./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d 
+./sensor_lib/Src/bmx055.d \
+./sensor_lib/Src/f103.d \
+./sensor_lib/Src/heartrate11.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.o Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.su: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/%.c Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
+sensor_lib/Src/%.o sensor_lib/Src/%.su: ../sensor_lib/Src/%.c sensor_lib/Src/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -DHAL_STM32F103 -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Buffer/Inc -I../sensor_lib/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 
-clean: clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src
+clean: clean-sensor_lib-2f-Src
 
-clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src:
-	-$(RM) ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.su
+clean-sensor_lib-2f-Src:
+	-$(RM) ./sensor_lib/Src/bmx055.d ./sensor_lib/Src/bmx055.o ./sensor_lib/Src/bmx055.su ./sensor_lib/Src/f103.d ./sensor_lib/Src/f103.o ./sensor_lib/Src/f103.su ./sensor_lib/Src/heartrate11.d ./sensor_lib/Src/heartrate11.o ./sensor_lib/Src/heartrate11.su
 
-.PHONY: clean-Middlewares-2f-ST-2f-STM32_USB_Device_Library-2f-Class-2f-CDC-2f-Src
+.PHONY: clean-sensor_lib-2f-Src
 

@@ -1,0 +1,16 @@
+../sensor_lib/Src/bmx055.c:126:6:BMX055_init_globals	16	static
+../sensor_lib/Src/bmx055.c:154:6:BMX055_setup	16	static
+../sensor_lib/Src/bmx055.c:291:6:loop	8	static
+../sensor_lib/Src/bmx055.c:449:6:getGres	4	static
+../sensor_lib/Src/bmx055.c:472:6:getAres	4	static
+../sensor_lib/Src/bmx055.c:494:6:readAccelData	24	static
+../sensor_lib/Src/bmx055.c:505:6:readGyroData	24	static
+../sensor_lib/Src/bmx055.c:514:6:readMagData	40	static
+../sensor_lib/Src/bmx055.c:545:9:readACCTempData	16	static
+../sensor_lib/Src/bmx055.c:551:6:trimBMX055	16	static
+../sensor_lib/Src/bmx055.c:573:6:initBMX055	8	static
+../sensor_lib/Src/bmx055.c:658:6:fastcompaccelBMX055	32	static
+../sensor_lib/Src/bmx055.c:694:6:magcalBMX055	72	static
+../sensor_lib/Src/bmx055.c:748:6:writeByte	32	static
+../sensor_lib/Src/bmx055.c:763:9:readByte	32	static
+../sensor_lib/Src/bmx055.c:791:6:readBytes	48	static

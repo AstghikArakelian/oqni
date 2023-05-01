@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_cdc_if.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,15 +45,22 @@ I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
 
 TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim3;
+TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
 uint8_t SM_Case = ST_IDLE;
 BUF_HandleTypeDef FIFO_buf = 0;
+I2C_HandleTypeDef cur_i2c;
+
 uint8_t command = 2;
 uint8_t rate;
-uint8_t adc1_rdy = 0;
-uint8_t adc2_rdy = 0;
-I2C_HandleTypeDef cur_i2c;
+uint8_t adc_rdy = 0;
+
+uint8_t BMX_rdy = 0;
+//int16_t accelCount[3];
+//int16_t gyroCount[3];
+//int16_t magCount[3];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -61,9 +69,12 @@ static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_I2C2_Init(void);
+static void MX_TIM4_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 static void OB1203_Setup(void);
 static void OB1203_RST(void);
+void ChangeTimer4Period(uint16_t NewPeriod);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -80,20 +91,34 @@ int Command_Check()
 		case COMMAND_FIRST_BYTE:
 			if (data == 0)
 			{
-				command_count = 1;
+				command_count = COMMAND_SECOND_BYTE;
 			}
 			else if(data == 255)
 			{
-				command_count = 2;
+				command_count = COMMAND_SWITCH;
 			}
 			break;
 		case COMMAND_SECOND_BYTE:
-			command_status = (data == 7)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
-			command = COMMAND_START;
+			if (data == 7)
+			{
+				command_status = COMMAND_RECEIVED;
+				command = COMMAND_START;
+			}
+			else
+			{
+				command_count = COMMAND_FIRST_BYTE;
+			}
 			break;
 		case COMMAND_SWITCH:
-			command_status = (data == 0)? COMMAND_RECEIVED: COMMAND_NOTRECEIVED;
-			command = COMMAND_STOP;
+			if (data == 0)
+			{
+				command_status = COMMAND_RECEIVED;
+				command = COMMAND_STOP;
+			}
+			else
+			{
+				command_count = COMMAND_FIRST_BYTE;
+			}
 			break;
 		}
 	}
@@ -136,14 +161,20 @@ int main(void)
   MX_TIM2_Init();
   MX_USB_DEVICE_Init();
   MX_I2C2_Init();
+  MX_TIM4_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  adc1_rdy = 0;
-  adc2_rdy = 0;
+  adc_rdy = 0;
   uint32_t ppg;
-  uint16_t ps;
+  uint8_t tca_data;
+
+//  uint16_t ps;
   int setup = SETUP_NOTDONE;
   command = COMMAND_NOTR;
-//  OB1203_Setup();
+  cur_i2c = hi2c2;
+//  ChangeTimer4Period(10000-1);
+  HAL_TIM_Base_Start_IT(&htim3);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -171,28 +202,57 @@ int main(void)
 			if (setup == SETUP_NOTDONE)
 			{
 				rate = HEARTRATE11_PPG_RATE_1MS;
-				cur_i2c = hi2c1;
+				tca9544a_I2C_SetX(I2C_1);
 				OB1203_Setup();
-				cur_i2c = hi2c2;
+
+				tca9544a_I2C_SetX(I2C_2);
 				OB1203_Setup();
+
+				tca9544a_I2C_SetX(I2C_3);
+				OB1203_Setup();
+
 				setup = SETUP_DONE;
 				ob1203_send_info(rate);
+
+				BMX055_init_globals();
+				BMX055_setup();
+				bmx055_send_info(100);
 			}
-			if(adc1_rdy)
-			{
-				cur_i2c = hi2c1;
-				memset(&ppg, 0, sizeof(ppg));
-				heartrate11_read_fifo(0, &ppg);
-				ob1203_send_results(ppg, 1);
-				adc1_rdy = 0;
-			}
-			if(adc2_rdy)
+			if(!HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3))
 			{
 				cur_i2c = hi2c2;
-				memset(&ppg, 0, sizeof(ppg));
-				heartrate11_read_fifo(0, &ppg);
-				ob1203_send_results(ppg, 2);
-				adc2_rdy = 0;
+				tca9544a_I2C_ReadX(&tca_data);
+				tca_data = tca_data >> 4;
+				if(tca_data && I2C1_INT)
+				{
+					tca9544a_I2C_SetX(I2C_1);
+					memset(&ppg, 0, sizeof(ppg));
+					heartrate11_read_fifo(0, &ppg);
+					ob1203_send_results(ppg, I2C1_INT);
+				}
+				if(tca_data && I2C2_INT)
+				{
+					tca9544a_I2C_SetX(I2C_2);
+					memset(&ppg, 0, sizeof(ppg));
+					heartrate11_read_fifo(0, &ppg);
+					ob1203_send_results(ppg, I2C2_INT);
+				}
+				if(tca_data && I2C3_INT)
+				{
+					tca9544a_I2C_SetX(I2C_3);
+					memset(&ppg, 0, sizeof(ppg));
+					heartrate11_read_fifo(0, &ppg);
+					ob1203_send_results(ppg, I2C3_INT);
+				}
+				adc_rdy = 0;
+			}
+			if (BMX_rdy)
+			{
+				readAccelData(accelCount);
+				readGyroData(gyroCount);
+				readMagData(magCount);
+				BMX_send_result(accelCount, gyroCount, magCount);
+				BMX_rdy = 0;
 			}
 			break;
 		case ST_STOP:
@@ -368,6 +428,96 @@ static void MX_TIM2_Init(void)
 }
 
 /**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 7200-1;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 100-1;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim3, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+
+}
+
+/**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 7200-1;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 1000-1;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -402,8 +552,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PB3 PB5 */
-  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_5;
+  /*Configure GPIO pin : PB3 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_5;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
@@ -427,11 +583,28 @@ void OB1203_RST(void)
 void OB1203_Setup(void)
 {
 	heartrate11_t heartrate11;
-	if(HEARTRATE11_OK == heartrate11_reset_device(0))
+	uint8_t data = 0;
+	if(HEARTRATE11_OK == heartrate11_read_register(0, HEARTRATE11_REG_PART_ID, &data))
 	{
 		heartrate11_default_cfg(&heartrate11);
 	}
 }
+
+void ChangeTimer4Period(uint16_t NewPeriod)
+{
+
+	  htim4.Init.Period = NewPeriod;
+	  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+	  {
+	    Error_Handler();
+	  }
+}
+//
+//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+//{
+//	BMX_rdy = 1;
+//}
+
 /* USER CODE END 4 */
 
 /**

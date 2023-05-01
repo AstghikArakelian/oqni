@@ -1,5 +1,5 @@
-ob1203_lib/Src/heartrate11.o: ../ob1203_lib/Src/heartrate11.c \
- ../ob1203_lib/Inc/heartrate11.h ../ob1203_lib/Inc/f103.h \
+sensor_lib/Src/bmx055.o: ../sensor_lib/Src/bmx055.c \
+ ../sensor_lib/Inc/BMX055.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -27,10 +27,8 @@ ob1203_lib/Src/heartrate11.o: ../ob1203_lib/Src/heartrate11.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
- ../Buffer/Inc/Buffer.h
-../ob1203_lib/Inc/heartrate11.h:
-../ob1203_lib/Inc/f103.h:
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+../sensor_lib/Inc/BMX055.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
@@ -59,4 +57,3 @@ ob1203_lib/Src/heartrate11.o: ../ob1203_lib/Src/heartrate11.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
-../Buffer/Inc/Buffer.h:

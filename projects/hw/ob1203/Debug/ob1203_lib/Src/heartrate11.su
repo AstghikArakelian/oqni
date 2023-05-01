@@ -1,9 +1,0 @@
-../ob1203_lib/Src/heartrate11.c:77:7:heartrate11_default_cfg	24	static
-../ob1203_lib/Src/heartrate11.c:101:7:heartrate11_generic_write	296	static
-../ob1203_lib/Src/heartrate11.c:119:7:heartrate11_generic_read	32	static
-../ob1203_lib/Src/heartrate11.c:131:7:heartrate11_write_register	16	static
-../ob1203_lib/Src/heartrate11.c:136:7:heartrate11_read_register	24	static
-../ob1203_lib/Src/heartrate11.c:148:7:heartrate11_reset_device	16	static
-../ob1203_lib/Src/heartrate11.c:153:7:heartrate11_set_led_current	32	static
-../ob1203_lib/Src/heartrate11.c:189:7:heartrate11_read_proximity	24	static
-../ob1203_lib/Src/heartrate11.c:197:7:heartrate11_read_fifo	24	static

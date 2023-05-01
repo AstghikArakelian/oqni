@@ -14,6 +14,7 @@
 #define INC_F103_H_
 
 #define ob1203_address							0x53
+#define tca9544a_address						0x70
 
 /*RST pin*/
 #define ob1203_RST_PIN  	                    GPIO_PIN_4
@@ -55,10 +56,14 @@ void ob1203_RstSet(void);
 void ob1203_RstReset(void);
 HAL_StatusTypeDef ob1203_I2C_Write(uint8_t address, uint8_t * data, uint8_t count);
 HAL_StatusTypeDef ob1203_I2C_Read(uint8_t address, uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count);
+void tca9544a_I2C_SetX(uint8_t slave);
+void tca9544a_I2C_ReadX(uint8_t* data);
 void ob1203_Delay_ms(uint32_t ms);
 void ob1203_send_results(uint32_t ppg, unsigned char channel_num);
+void BMX_send_result(uint16_t* acc, uint16_t* giro, uint16_t* mag);
 void ob1203_send_preambula(void);
 void ob1203_send_info(uint8_t rate);
+void bmx055_send_info(uint8_t rate);
 
 
 #endif /* INC_F103_H_ */

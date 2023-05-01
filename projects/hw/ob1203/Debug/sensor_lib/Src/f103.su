@@ -1,0 +1,12 @@
+../sensor_lib/Src/f103.c:21:6:ob1203_RstSet	8	static
+../sensor_lib/Src/f103.c:26:6:ob1203_RstReset	8	static
+../sensor_lib/Src/f103.c:31:19:ob1203_I2C_Write	24	static
+../sensor_lib/Src/f103.c:36:19:ob1203_I2C_Read	48	static
+../sensor_lib/Src/f103.c:41:6:tca9544a_I2C_SetX	24	static
+../sensor_lib/Src/f103.c:47:6:tca9544a_I2C_ReadX	24	static
+../sensor_lib/Src/f103.c:52:6:ob1203_Delay_ms	16	static
+../sensor_lib/Src/f103.c:57:6:ob1203_send_results	16	static
+../sensor_lib/Src/f103.c:68:6:BMX_send_result	32	static
+../sensor_lib/Src/f103.c:89:6:ob1203_send_preambula	16	static
+../sensor_lib/Src/f103.c:99:6:ob1203_send_info	24	static
+../sensor_lib/Src/f103.c:112:6:bmx055_send_info	24	static

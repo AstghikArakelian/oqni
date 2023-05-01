@@ -1,8 +1,0 @@
-../ob1203_lib/Src/f103.c:19:6:ob1203_RstSet	8	static
-../ob1203_lib/Src/f103.c:24:6:ob1203_RstReset	8	static
-../ob1203_lib/Src/f103.c:29:19:ob1203_I2C_Write	24	static
-../ob1203_lib/Src/f103.c:34:19:ob1203_I2C_Read	48	static
-../ob1203_lib/Src/f103.c:39:6:ob1203_Delay_ms	16	static
-../ob1203_lib/Src/f103.c:44:6:ob1203_send_results	24	static
-../ob1203_lib/Src/f103.c:55:6:ob1203_send_preambula	16	static
-../ob1203_lib/Src/f103.c:65:6:ob1203_send_info	24	static

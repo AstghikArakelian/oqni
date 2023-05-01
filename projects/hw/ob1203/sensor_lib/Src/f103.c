@@ -8,6 +8,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "f103.h"
+
 #include "usb_device.h"
 #include "usbd_cdc_if.h"
 #include "stm32f1xx_hal.h"
@@ -37,6 +38,17 @@ HAL_StatusTypeDef ob1203_I2C_Read(uint8_t address, uint8_t * reg, uint8_t * buff
 	return HAL_I2C_Mem_Read(&cur_i2c, address << 1, *reg, cmd_size, buffer, count, 10);
 }
 
+void tca9544a_I2C_SetX(uint8_t slave)
+{
+	slave = slave | 4;
+	HAL_I2C_Master_Transmit(&cur_i2c, tca9544a_address << 1, &slave, 1, 10);
+}
+
+void tca9544a_I2C_ReadX(uint8_t* data)
+{
+	HAL_I2C_Master_Receive(&cur_i2c, tca9544a_address << 1 | 1, data, 1, 10);
+}
+
 void ob1203_Delay_ms(uint32_t ms)
 {
 	HAL_Delay(ms);
@@ -45,11 +57,33 @@ void ob1203_Delay_ms(uint32_t ms)
 void ob1203_send_results(uint32_t ppg, unsigned char channel_num)
 {
 	send_buf = &ppg;
+	ob1203_Delay_ms(2);
 	ob1203_send_preambula();
-	ob1203_Delay_ms(5);
+	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
-	ob1203_Delay_ms(5);
+	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) send_buf, 4);
+}
+
+void BMX_send_result(uint16_t* acc, uint16_t* giro, uint16_t* mag)
+{
+	ob1203_send_preambula();
+	ob1203_Delay_ms(2);
+	uint8_t channel_num = 4;
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) acc, 6);
+	ob1203_Delay_ms(2);
+	channel_num = 5;
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) giro, 6);
+	ob1203_Delay_ms(2);
+	channel_num = 6;
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) mag, 6);
+
 }
 
 void ob1203_send_preambula()
@@ -64,12 +98,26 @@ void ob1203_send_preambula()
 
 void ob1203_send_info(uint8_t rate)
 {
-	uint8_t size = 1;
+	uint8_t size = 4;
 	uint8_t channel_num = 1;
+	ob1203_send_preambula();
+	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &rate, 1);
-	ob1203_Delay_ms(5);
+	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &size, 1);
-	ob1203_Delay_ms(5);
+	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
 }
 
+void bmx055_send_info(uint8_t rate)
+{
+	uint8_t size = 6;
+	uint8_t channel_num = 1;
+	ob1203_send_preambula();
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) &rate, 1);
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) &size, 1);
+	ob1203_Delay_ms(2);
+	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
+}
