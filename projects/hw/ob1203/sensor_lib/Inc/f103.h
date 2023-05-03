@@ -60,7 +60,7 @@ void tca9544a_I2C_SetX(uint8_t slave);
 void tca9544a_I2C_ReadX(uint8_t* data);
 void ob1203_Delay_ms(uint32_t ms);
 void ob1203_send_results(uint32_t ppg, unsigned char channel_num);
-void BMX_send_result(uint16_t* acc, uint16_t* giro, uint16_t* mag);
+void BMX_send_result(int16_t* acc, int16_t* giro, int16_t* mag);
 void ob1203_send_preambula(void);
 void ob1203_send_info(uint8_t rate);
 void bmx055_send_info(uint8_t rate);

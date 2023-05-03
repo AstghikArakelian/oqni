@@ -20,6 +20,7 @@
 #include <stdint.h>
 #include "heartrate_3_hw.h"
 
+
 /******************************************************************************
 * Module Preprocessor Constants
 *******************************************************************************/
@@ -49,54 +50,54 @@
 
 uint8_t hr3_init( uint8_t address, dynamic_modes_t* dyn_modes )
 {
-    hr3_hal_init( address );
-    hr3_set_settings( sw_reset_en,diag_mode_dis,susp_count_dis,reg_read_dis );
-    hr3_set_led2_start_end( 0, 399 );
-    hr3_set_led2_sample_start_end( 80, 399 );
-    hr3_set_adc_reset0_start_end( 401, 407 );
-    hr3_set_led2_convert_start_end( 408, 1467 );
-    hr3_set_led3_start_stop( 400, 799 );
-    hr3_set_led3_sample_start_end( 480, 799 );
-    hr3_set_adc_reset1_start_end( 1469, 1475 );
-    hr3_set_led3_convert_start_end( 1476, 2535 );
-    hr3_set_led1_start_end( 800, 1199 );
-    hr3_set_led1_sample_start_end( 880, 1199 );
-    hr3_set_adc_reset2_start_end( 2537, 2543 );
-    hr3_set_led1_convert_start_end( 2544, 3603 );
-    hr3_set_amb1_sample_start_end( 1279, 1598 );
-    hr3_set_adc_reset3_start_end( 3605, 3611 );
-    hr3_set_amb1_convert_start_end( 3612, 4671 );
-    hr3_set_pdn_cycle_start_end( 5471, 39199 );
-    hr3_set_prpct_count( 39999 );                              //Clock timing for CLKDIV_PRF  = 1
+	hr3_hal_init( address );
+	hr3_set_settings( sw_reset_en,diag_mode_dis,susp_count_dis,reg_read_dis );
+	hr3_set_led2_start_end( 0, 399 );
+	hr3_set_led2_sample_start_end( 80, 399 );
+	hr3_set_adc_reset0_start_end( 401, 407 );
+	hr3_set_led2_convert_start_end( 408, 1467 );
+	hr3_set_led3_start_stop( 400, 799 );
+	hr3_set_led3_sample_start_end( 480, 799 );
+	hr3_set_adc_reset1_start_end( 1469, 1475 );
+	hr3_set_led3_convert_start_end( 1476, 2535 );
+	hr3_set_led1_start_end( 800, 1199 );
+	hr3_set_led1_sample_start_end( 880, 1199 );
+	hr3_set_adc_reset2_start_end( 2537, 2543 );
+	hr3_set_led1_convert_start_end( 2544, 3603 );
+	hr3_set_amb1_sample_start_end( 1279, 1598 );
+	hr3_set_adc_reset3_start_end( 3605, 3611 );
+	hr3_set_amb1_convert_start_end( 3612, 4671 );
+	hr3_set_pdn_cycle_start_end( 5471, 39199 );
+	hr3_set_prpct_count( 39999 );                              //Clock timing for CLKDIV_PRF  = 1
 
-    //Clock Timing for CLKDIV_PRF = 5
+	//Clock Timing for CLKDIV_PRF = 5
    /* hr3_set_led2_start_end( 0, 79 );
-    hr3_set_led2_sample_start_end( 16, 79 );
-    hr3_set_adc_reset0_start_end( 80, 81 );
-    hr3_set_led2_convert_start_end( 81, 293 );
-    hr3_set_led3_start_stop( 80, 159 );
-    hr3_set_led3_sample_start_end( 96, 159 );
-    hr3_set_adc_reset1_start_end( 293, 295 );
-    hr3_set_led3_convert_start_end( 295, 507 );
-    hr3_set_led1_start_end( 160, 239 );
-    hr3_set_led1_sample_start_end( 176, 239 );
-    hr3_set_adc_reset2_start_end( 507, 508 );
-    hr3_set_led1_convert_start_end( 508, 720 );
-    hr3_set_amb1_sample_start_end( 255, 319 );
-    hr3_set_adc_reset3_start_end( 721, 722 );
-    hr3_set_amb1_convert_start_end( 722, 934 );
-    hr3_set_pdn_cycle_start_end( 1094, 7839 );
-    hr3_set_prpct_count( 7999 );        */
-    
-    hr3_set_timer_and_average_num( true, 3 );
-    hr3_set_seperate_tia_gain( true, 0, 4 );
-    hr3_set_tia_gain( false, 0, 3 );
-    hr3_set_led_currents( 15,3,3 );
-    hr3_set_dynamic_settings( dyn_modes );
-    hr3_set_clkout_div( false, 2 );
-    hr3_set_int_clk_div( 1 );
+	hr3_set_led2_sample_start_end( 16, 79 );
+	hr3_set_adc_reset0_start_end( 80, 81 );
+	hr3_set_led2_convert_start_end( 81, 293 );
+	hr3_set_led3_start_stop( 80, 159 );
+	hr3_set_led3_sample_start_end( 96, 159 );
+	hr3_set_adc_reset1_start_end( 293, 295 );
+	hr3_set_led3_convert_start_end( 295, 507 );
+	hr3_set_led1_start_end( 160, 239 );
+	hr3_set_led1_sample_start_end( 176, 239 );
+	hr3_set_adc_reset2_start_end( 507, 508 );
+	hr3_set_led1_convert_start_end( 508, 720 );
+	hr3_set_amb1_sample_start_end( 255, 319 );
+	hr3_set_adc_reset3_start_end( 721, 722 );
+	hr3_set_amb1_convert_start_end( 722, 934 );
+	hr3_set_pdn_cycle_start_end( 1094, 7839 );
+	hr3_set_prpct_count( 7999 );        */
 
-    return 0;
+	hr3_set_timer_and_average_num( true, 3 );
+	hr3_set_seperate_tia_gain( true, 0, 4 );
+	hr3_set_tia_gain( false, 0, 3 );
+	hr3_set_led_currents( 15, 3, 3 );
+	hr3_set_dynamic_settings( dyn_modes );
+	hr3_set_clkout_div( false, 2 );
+	hr3_set_int_clk_div( 1 );
+
+	return 0;
 }
 
 uint8_t hr3_set_settings( sw_reset_t sw_reset, diag_mode_t diag_mode,

@@ -65,7 +65,7 @@ void ob1203_send_results(uint32_t ppg, unsigned char channel_num)
 	CDC_Transmit_FS((unsigned char*) send_buf, 4);
 }
 
-void BMX_send_result(uint16_t* acc, uint16_t* giro, uint16_t* mag)
+void BMX_send_result(int16_t* acc, int16_t* giro, int16_t* mag)
 {
 	ob1203_send_preambula();
 	ob1203_Delay_ms(2);

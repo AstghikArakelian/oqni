@@ -15,6 +15,7 @@
 /* Private variables ---------------------------------------------------------*/
 extern uint8_t transmit_cplt;
 extern I2C_HandleTypeDef cur_i2c;
+extern int setup;
 /* Private user code ---------------------------------------------------------*/
 void afe4404_RstSet(void)
 {
@@ -29,12 +30,12 @@ void afe4404_RstReset(void)
 
 void afe4404_I2C_Write(uint8_t * data, uint8_t count)
 {
-	HAL_I2C_Master_Transmit(&cur_i2c, afe4404_address<< 1, data, count, 10);
+	while(HAL_I2C_Master_Transmit(&cur_i2c, afe4404_address<< 1, data, count, 10));
 }
 
 void afe4404_I2C_Read(uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count)
 {
-	HAL_I2C_Mem_Read(&cur_i2c, afe4404_address<< 1, *reg, cmd_size, buffer, count, 10);
+	while(HAL_I2C_Mem_Read(&cur_i2c, afe4404_address<< 1, *reg, cmd_size, buffer, count, 10));
 }
 
 void afe4404_Delay_ms(uint32_t ms)
@@ -42,29 +43,30 @@ void afe4404_Delay_ms(uint32_t ms)
 	HAL_Delay(ms);
 }
 
-void afe4404_send_results(uint8_t num, uint16_t hr, uint32_t led1, uint32_t led2, uint32_t led3)
+void afe4404_send_results(uint8_t num, uint32_t led1, uint32_t led2, uint32_t led3)
 {
-	unsigned char channel_num = 3;
+//	if(led1 == 0)
+//	{
+//		setup = SETUP_NOTDONE;
+//		return;
+//	}
 	afe4404_send_preambula();
 	afe4404_Delay_ms(5);
 
 	CDC_Transmit_FS((unsigned char*) &num, 1);
-	afe4404_Delay_ms(5);
-	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
 
 	afe4404_Delay_ms(5);
 	CDC_Transmit_FS((unsigned char*) &led1, 4);
 	afe4404_Delay_ms(5);
+//
+//	CDC_Transmit_FS((unsigned char*) &led2, 4);
+//	afe4404_Delay_ms(5);
 
-	CDC_Transmit_FS((unsigned char*) &led2, 4);
-	afe4404_Delay_ms(5);
+//	CDC_Transmit_FS((unsigned char*) &led3, 4);
 
-	CDC_Transmit_FS((unsigned char*) &led3, 4);
-
-	//	char send[128];
-	//	sprintf(send, "%d, %ld\r\n", num, led1);
-	//	CDC_Transmit_FS((unsigned char*) send, strlen(send));
-	//
+//	char send[128];
+//	sprintf(send, "%d, %ld, %ld, %ld\r\n", num, led1, led2, led3);
+//	CDC_Transmit_FS((unsigned char*) send, strlen(send));
 }
 
 void afe4404_send_preambula()

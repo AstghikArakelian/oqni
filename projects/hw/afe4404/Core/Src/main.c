@@ -52,6 +52,7 @@ uint8_t command = 2;
 uint8_t adc1_rdy = 0;
 uint8_t adc2_rdy = 0;
 I2C_HandleTypeDef cur_i2c;
+int setup = SETUP_NOTDONE;
 
 /* USER CODE END PV */
 
@@ -139,7 +140,9 @@ int main(void)
   /* USER CODE BEGIN 2 */
   adc1_rdy = 0;
   adc2_rdy = 0;
-  int setup = SETUP_NOTDONE;
+  uint32_t led1 = 0;
+  uint32_t led2 = 0;
+  uint32_t led3 = 0;
   command = COMMAND_NOTR;
   /* USER CODE END 2 */
 
@@ -177,15 +180,23 @@ int main(void)
 				if(adc1_rdy)
 				{
 					cur_i2c = hi2c1;
-					statHRMAlgo(hr3_get_led1_amb1_val());
-					afe4404_send_results(1, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+//					statHRMAlgo(hr3_get_led1_amb1_val());
+					afe4404_Delay_ms(2);
+					led2 = hr3_get_led2_val();
+					led3 = hr3_get_led3_val();
+					led1 = hr3_get_led1_val();
+					afe4404_send_results(1, led1, led2, led3);
 					adc1_rdy = 0;
 				}
 				if(adc2_rdy)
 				{
 					cur_i2c = hi2c2;
-					statHRMAlgo(hr3_get_led1_amb1_val());
-					afe4404_send_results(2, hr3_get_heartrate(), hr3_get_led1_val(), hr3_get_led2_val(), hr3_get_led3_val());
+//					statHRMAlgo(hr3_get_led1_amb1_val());
+					afe4404_Delay_ms(2);
+					led2 = hr3_get_led2_val();
+					led3 = hr3_get_led3_val();
+					led1 = hr3_get_led1_val();
+					afe4404_send_results(2, led1, led2, led3);
 					adc2_rdy = 0;
 				}
 				break;
@@ -425,8 +436,9 @@ static void MX_GPIO_Init(void)
 static void AFE12_RST(void)
 {
 	afe4404_RstReset();
-	HAL_Delay(0.05);
+	afe4404_Delay_ms(0.05);
 	afe4404_RstSet();
+	afe4404_Delay_ms(2);
 }
 
 static void AFE_Setup(void)
@@ -443,6 +455,7 @@ static void AFE_Setup(void)
 	dynamic_modes.afe_mode = afe_normal;
 
 	hr3_init(afe4404_address, &dynamic_modes);
+	afe4404_Delay_ms(201);
 }
 
 /* USER CODE END 4 */

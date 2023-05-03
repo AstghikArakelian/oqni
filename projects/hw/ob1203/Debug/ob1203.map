@@ -6157,37 +6157,37 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x0000000000000000    0x17fd4
+.debug_info     0x0000000000000000    0x17fe6
  .debug_info    0x0000000000000000      0x27d ./Buffer/Src/Buffer.o
- .debug_info    0x000000000000027d     0x16c5 ./Core/Src/main.o
- .debug_info    0x0000000000001942      0xe7f ./Core/Src/stm32f1xx_hal_msp.o
- .debug_info    0x00000000000027c1      0xf94 ./Core/Src/stm32f1xx_it.o
- .debug_info    0x0000000000003755      0x171 ./Core/Src/sysmem.o
- .debug_info    0x00000000000038c6      0x23d ./Core/Src/system_stm32f1xx.o
- .debug_info    0x0000000000003b03       0x22 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x0000000000003b25      0x734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x0000000000004259      0xb20 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x0000000000004d79      0x73f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_info    0x00000000000054b8      0x615 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x0000000000005acd     0x2734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_info    0x0000000000008201     0x16ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
- .debug_info    0x00000000000098ac      0x728 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
- .debug_info    0x0000000000009fd4      0x860 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x000000000000a834      0x3e0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_info    0x000000000000ac14     0x29de ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_info    0x000000000000d5f2     0x1513 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_info    0x000000000000eb05     0x190d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
- .debug_info    0x0000000000010412     0x10f8 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
- .debug_info    0x000000000001150a      0xb09 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
- .debug_info    0x0000000000012013      0x9bd ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
- .debug_info    0x00000000000129d0      0x71c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
- .debug_info    0x00000000000130ec      0x680 ./USB_DEVICE/App/usb_device.o
- .debug_info    0x000000000001376c      0x8f6 ./USB_DEVICE/App/usbd_cdc_if.o
- .debug_info    0x0000000000014062      0x48b ./USB_DEVICE/App/usbd_desc.o
- .debug_info    0x00000000000144ed     0x193c ./USB_DEVICE/Target/usbd_conf.o
- .debug_info    0x0000000000015e29     0x128a ./sensor_lib/Src/bmx055.o
- .debug_info    0x00000000000170b3      0xa36 ./sensor_lib/Src/f103.o
- .debug_info    0x0000000000017ae9      0x4eb ./sensor_lib/Src/heartrate11.o
+ .debug_info    0x000000000000027d     0x16bf ./Core/Src/main.o
+ .debug_info    0x000000000000193c      0xe7f ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_info    0x00000000000027bb      0xf94 ./Core/Src/stm32f1xx_it.o
+ .debug_info    0x000000000000374f      0x171 ./Core/Src/sysmem.o
+ .debug_info    0x00000000000038c0      0x23d ./Core/Src/system_stm32f1xx.o
+ .debug_info    0x0000000000003afd       0x22 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x0000000000003b1f      0x734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x0000000000004253      0xb20 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000004d73      0x73f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_info    0x00000000000054b2      0x615 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x0000000000005ac7     0x2734 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_info    0x00000000000081fb     0x16ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.o
+ .debug_info    0x00000000000098a6      0x728 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o
+ .debug_info    0x0000000000009fce      0x860 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x000000000000a82e      0x3e0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_info    0x000000000000ac0e     0x29de ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_info    0x000000000000d5ec     0x1513 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_info    0x000000000000eaff     0x190d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o
+ .debug_info    0x000000000001040c     0x10f8 ./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o
+ .debug_info    0x0000000000011504      0xb09 ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o
+ .debug_info    0x000000000001200d      0x9bd ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o
+ .debug_info    0x00000000000129ca      0x71c ./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o
+ .debug_info    0x00000000000130e6      0x680 ./USB_DEVICE/App/usb_device.o
+ .debug_info    0x0000000000013766      0x8f6 ./USB_DEVICE/App/usbd_cdc_if.o
+ .debug_info    0x000000000001405c      0x48b ./USB_DEVICE/App/usbd_desc.o
+ .debug_info    0x00000000000144e7     0x193c ./USB_DEVICE/Target/usbd_conf.o
+ .debug_info    0x0000000000015e23     0x128a ./sensor_lib/Src/bmx055.o
+ .debug_info    0x00000000000170ad      0xa4e ./sensor_lib/Src/f103.o
+ .debug_info    0x0000000000017afb      0x4eb ./sensor_lib/Src/heartrate11.o
 
 .debug_abbrev   0x0000000000000000     0x3cd2
  .debug_abbrev  0x0000000000000000      0x14f ./Buffer/Src/Buffer.o
@@ -6531,7 +6531,7 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_str     0x000000000009254b      0xc2f ./sensor_lib/Src/bmx055.o
                                       0x8a62b (size before relaxing)
  .debug_str     0x000000000009317a       0x9e ./sensor_lib/Src/f103.o
-                                      0x8d508 (size before relaxing)
+                                      0x8d51a (size before relaxing)
  .debug_str     0x0000000000093218       0xdd ./sensor_lib/Src/heartrate11.o
                                       0x8b4d7 (size before relaxing)
 
