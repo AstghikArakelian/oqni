@@ -83,7 +83,6 @@ void BMX_send_result(int16_t* acc, int16_t* giro, int16_t* mag)
 	CDC_Transmit_FS((unsigned char*) &channel_num, 1);
 	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) mag, 6);
-
 }
 
 void ob1203_send_preambula()
@@ -96,13 +95,13 @@ void ob1203_send_preambula()
 	CDC_Transmit_FS((unsigned char*) &preambula, 4);
 }
 
-void ob1203_send_info(uint8_t rate)
+void ob1203_send_info(uint16_t rate)
 {
 	uint8_t size = 4;
 	uint8_t channel_num = 1;
 	ob1203_send_preambula();
 	ob1203_Delay_ms(2);
-	CDC_Transmit_FS((unsigned char*) &rate, 1);
+	CDC_Transmit_FS((unsigned char*) &rate, 2);
 	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &size, 1);
 	ob1203_Delay_ms(2);
@@ -111,8 +110,8 @@ void ob1203_send_info(uint8_t rate)
 
 void bmx055_send_info(uint8_t rate)
 {
-	uint8_t size = 6;
-	uint8_t channel_num = 1;
+	uint8_t size = 2;
+	uint8_t channel_num = 3;
 	ob1203_send_preambula();
 	ob1203_Delay_ms(2);
 	CDC_Transmit_FS((unsigned char*) &rate, 1);

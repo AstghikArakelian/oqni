@@ -125,7 +125,32 @@ int Command_Check()
 	return command_status;
 }
 
-
+uint16_t rate_case(uint8_t rate)
+{
+	uint16_t rate_hz = 0;
+	switch(rate)
+	{
+	case HEARTRATE11_PPG_RATE_1MS:
+		rate_hz = 1000;
+		break;
+	case HEARTRATE11_PPG_RATE_1p25MS:
+		rate_hz = 800;
+		break;
+	case HEARTRATE11_PPG_RATE_2p5MS:
+		rate_hz = 400;
+		break;
+	case HEARTRATE11_PPG_RATE_5MS:
+		rate_hz = 200;
+		break;
+	case HEARTRATE11_PPG_RATE_10MS:
+		rate_hz = 100;
+		break;
+	case HEARTRATE11_PPG_RATE_20MS:
+		rate_hz = 50;
+		break;
+	}
+	return rate_hz;
+}
 
 /* USER CODE END 0 */
 
@@ -167,7 +192,6 @@ int main(void)
   adc_rdy = 0;
   uint32_t ppg;
   uint8_t tca_data;
-
 //  uint16_t ps;
   int setup = SETUP_NOTDONE;
   command = COMMAND_NOTR;
@@ -201,7 +225,8 @@ int main(void)
 
 			if (setup == SETUP_NOTDONE)
 			{
-				rate = HEARTRATE11_PPG_RATE_1MS;
+
+				rate = HEARTRATE11_PPG_RATE_10MS;
 				tca9544a_I2C_SetX(I2C_1);
 				OB1203_Setup();
 
@@ -212,7 +237,7 @@ int main(void)
 				OB1203_Setup();
 
 				setup = SETUP_DONE;
-				ob1203_send_info(rate);
+				ob1203_send_info(rate_case(rate));
 
 				BMX055_init_globals();
 				BMX055_setup();
