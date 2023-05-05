@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
+  include("C:/Users/sando/GIT/ogni/projects/sw/afe_4404_esp32/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
 endif()
 

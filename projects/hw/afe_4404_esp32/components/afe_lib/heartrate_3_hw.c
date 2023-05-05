@@ -52,10 +52,10 @@ uint8_t hr3_init( uint8_t address, dynamic_modes_t* dyn_modes )
     hr3_hal_init( address );
     hr3_set_settings( sw_reset_en,diag_mode_dis,susp_count_dis,reg_read_dis );
     hr3_set_led2_start_end( 0, 399 );
-    hr3_set_led2_sample_start_end( 100, 399 ); //rec in datasheet 100, previous ex value 80
+    hr3_set_led2_sample_start_end( 80, 399 );
     hr3_set_adc_reset0_start_end( 401, 407 );
     hr3_set_led2_convert_start_end( 408, 1467 );
-    hr3_set_led3_start_stop( 500, 799 ); //rec in datasheet 501, previous ex value 400
+    hr3_set_led3_start_stop( 400, 799 );
     hr3_set_led3_sample_start_end( 480, 799 );
     hr3_set_adc_reset1_start_end( 1469, 1475 );
     hr3_set_led3_convert_start_end( 1476, 2535 );
@@ -67,7 +67,26 @@ uint8_t hr3_init( uint8_t address, dynamic_modes_t* dyn_modes )
     hr3_set_adc_reset3_start_end( 3605, 3611 );
     hr3_set_amb1_convert_start_end( 3612, 4671 );
     hr3_set_pdn_cycle_start_end( 5471, 39199 );
-    hr3_set_prpct_count( 39999 );                              //Clock timing for CLKDIV_PRF  = 1
+    hr3_set_prpct_count( 39999 );
+//    hr3_hal_init( address );
+//    hr3_set_settings( sw_reset_en,diag_mode_dis,susp_count_dis,reg_read_dis );
+//    hr3_set_led2_start_end( 0, 399 );
+//    hr3_set_led2_sample_start_end( 100, 399 ); //rec in datasheet 100, previous ex value 80
+//    hr3_set_adc_reset0_start_end( 401, 407 );
+//    hr3_set_led2_convert_start_end( 408, 1467 );
+//    hr3_set_led3_start_stop( 500, 799 ); //rec in datasheet 501, previous ex value 400
+//    hr3_set_led3_sample_start_end( 480, 799 );
+//    hr3_set_adc_reset1_start_end( 1469, 1475 );
+//    hr3_set_led3_convert_start_end( 1476, 2535 );
+//    hr3_set_led1_start_end( 800, 1199 );
+//    hr3_set_led1_sample_start_end( 880, 1199 );
+//    hr3_set_adc_reset2_start_end( 2537, 2543 );
+//    hr3_set_led1_convert_start_end( 2544, 3603 );
+//    hr3_set_amb1_sample_start_end( 1279, 1598 );
+//    hr3_set_adc_reset3_start_end( 3605, 3611 );
+//    hr3_set_amb1_convert_start_end( 3612, 4671 );
+//    hr3_set_pdn_cycle_start_end( 5471, 39199 );
+//    hr3_set_prpct_count( 39999 );                              //Clock timing for CLKDIV_PRF  = 1
 
     //Clock Timing for CLKDIV_PRF = 5
    /* hr3_set_led2_start_end( 0, 79 );
@@ -88,6 +107,13 @@ uint8_t hr3_init( uint8_t address, dynamic_modes_t* dyn_modes )
     hr3_set_pdn_cycle_start_end( 1094, 7839 );
     hr3_set_prpct_count( 7999 );        */
 
+//    hr3_set_timer_and_average_num( true, 3 );
+//    hr3_set_seperate_tia_gain( true, 0, 4 );
+//    hr3_set_tia_gain( false, 0, 3 );
+//    hr3_set_led_currents( 15,3,3 );
+//    hr3_set_dynamic_settings( dyn_modes );
+//    hr3_set_clkout_div( false, 2 );
+//    hr3_set_int_clk_div( 1 );
     hr3_set_timer_and_average_num( true, 3 );
     hr3_set_seperate_tia_gain( true, 0, 4 );
     hr3_set_tia_gain( false, 0, 3 );

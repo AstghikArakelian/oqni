@@ -1,0 +1,16 @@
+bmx055.c:126:6:BMX055_init_globals	2
+bmx055.c:154:6:BMX055_setup	4
+bmx055.c:291:6:loop	1
+bmx055.c:449:6:getGres	6
+bmx055.c:472:6:getAres	5
+bmx055.c:494:6:readAccelData	4
+bmx055.c:505:6:readGyroData	1
+bmx055.c:514:6:readMagData	4
+bmx055.c:545:9:readACCTempData	1
+bmx055.c:551:6:trimBMX055	1
+bmx055.c:573:6:initBMX055	5
+bmx055.c:658:6:fastcompaccelBMX055	4
+bmx055.c:694:6:magcalBMX055	5
+bmx055.c:748:6:writeByte	1
+bmx055.c:763:9:readByte	1
+bmx055.c:791:6:readBytes	1

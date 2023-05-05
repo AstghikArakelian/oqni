@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/sando/GIT/ogni/projects/sw/afe_4404_esp32/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

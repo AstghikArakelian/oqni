@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/components/buffer
+# Install script for directory: C:/Users/sando/GIT/ogni/projects/sw/afe_4404_esp32/components/buffer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

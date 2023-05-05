@@ -10,6 +10,9 @@
 #include <string.h>
 #include "driver/i2c.h"
 #include "driver/gpio.h"
+#include "driver/uart.h"
+
+
 
 #ifndef INC_F103_H_
 #define INC_F103_H_
@@ -60,8 +63,8 @@ void afe4404_RstReset(void);
 void afe4404_I2C_Write(uint8_t * data, uint8_t count);
 void afe4404_I2C_Read(uint8_t * reg, uint8_t * buffer, uint8_t cmd_size, uint8_t count);
 void afe4404_Delay_ms(uint32_t ms);
-void afe4404_send_results(uint8_t num, uint16_t hr, uint32_t led1, uint32_t led2, uint32_t led3);
+void afe4404_send_results(uint8_t num, uint32_t led1, uint32_t led2, uint32_t led3);
 void afe4404_send_noresult(void);
-
+void afe4404_send_preambula(void);
 
 #endif /* INC_F103_H_ */

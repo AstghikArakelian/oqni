@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Espressif/frameworks/esp-idf-v5.0.1/components/bootloader/subproject",
-    "build_dir":          "C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/build/bootloader",
-    "config_file":        "C:/Users/sando/Workspace/esp_workspace/afe_4404_esp32/sdkconfig",
+    "build_dir":          "C:/Users/sando/GIT/ogni/projects/sw/afe_4404_esp32/build/bootloader",
+    "config_file":        "C:/Users/sando/GIT/ogni/projects/sw/afe_4404_esp32/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "",
     "app_elf":            "bootloader.elf",
